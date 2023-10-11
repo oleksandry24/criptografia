@@ -1,0 +1,10 @@
+Novo algoritmo para encriptar texto em voz, acreditando que esta encriptação poderia ser aplicada em cenários como denúncias anónimas e comunicações seguras, tais como vídeo chamadas e mensagens de voz, entre outros.
+
+Pensar em: 
+
+- novo algoritmo, como fazer?? Reutilizar algum e melhorar? Fazer dupla criptografia?
+
+Desenvolver: 
+
+- 1 ficheiro para gravar audio e transformar em bits
+- 1 ficheiro para aceder a BD
