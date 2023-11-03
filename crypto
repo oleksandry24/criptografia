@@ -1,0 +1,121 @@
+#!/usr/bin/python
+# -*- encoding: utf-8 -*-
+
+from secretpy import alphabets as al
+from secretpy import CryptMachine
+from secretpy.cmdecorators import UpperCase
+from secretpy.ciphers.polybius_square import PolybiusSquare
+import random
+import string
+from AES import aesEncrypt, aesDecrypt
+import secrets
+
+
+class DoubleShot:
+    def __init__(self):
+        # Crie o dicionário de substituição no construtor da classe
+        self.encryption_dict = self.generate_encryption_dict()
+
+    def generate_encryption_dict(self):
+        alphabet = list(string.ascii_uppercase)
+        shuffled_alphabet = list(alphabet)
+        random.shuffle(shuffled_alphabet)
+        encryption_dict = {original: replacement for original, replacement in zip(alphabet, shuffled_alphabet)}
+        return encryption_dict
+   
+    def enigmaCry(self, text):
+        encryption_dict = self.encryption_dict
+        encrypted_text = ""
+        for char in text.upper():
+            if char in encryption_dict:
+                encrypted_text += encryption_dict[char]
+            else:
+                encrypted_text += char          
+        return encrypted_text
+    
+    def enigmaDecry(self, input):
+        encryption_dict = self.encryption_dict
+        input = input.upper()
+        encrypted_text = ""
+        for char in input:
+            if char in encryption_dict.values():
+                for key, value in encryption_dict.items():
+                    if value == char:
+                        encrypted_text += key
+                        break
+            else:
+                encrypted_text += char
+        return encrypted_text
+    
+    # Função para multiplicar cada caractere pelo valor multiplicador
+    def multiplyChar(self,text):
+        new_text = text.split() 
+        multiplier = len(new_text[0]) + random.randint(1,10)
+        multiplied_text = ""
+        for char in text:
+            multiplied_char = chr(ord(char) * multiplier)
+            multiplied_text += multiplied_char
+
+        self.encryption_dict["#"] = multiplier
+        return multiplied_text
+
+    # Função para desfazer a multiplicação
+    def divideChar(self, text):
+        divisor = self.encryption_dict["#"]
+        divided_text = ""
+        for char in text:
+            divided_char = chr(ord(char) // divisor)
+            divided_text += divided_char
+        return divided_text
+    
+    # Função que incorpora todas as etapas de transformação e o AES
+    def processAndEncrypt(self, plain_text, cipher_key):
+        # Aplicar a transformação enigmaCry
+        transformed_text = self.enigmaCry(plain_text)
+        
+        # Multiplicar cada caractere pelo valor multiplicador
+        #multiplied_text = self.multiplyChar(transformed_text)
+        
+        # Aplicar a criptografia AES
+        cipher_text = aesEncrypt(transformed_text, cipher_key)
+
+        multiplied_text = self.multiplyChar(cipher_text)
+        
+        return multiplied_text
+
+    # Função que incorpora todas as etapas de transformação e a descriptografia AES
+    def processAndDecrypt(self,cipher_text, cipher_key):
+
+        # Desfazer a multiplicação
+        divided_text = self.divideChar(cipher_text)
+
+        # Descriptografar com AES
+        decrypted_text = aesDecrypt(divided_text, cipher_key)
+       
+        # Desfazer a transformação enigmaCry
+        original_text = self.enigmaDecry(decrypted_text)
+        
+        
+        return original_text
+
+
+def encdec(machine, plain_text, cipher_key):
+    print("No encry",plain_text)
+    cipher_text = machine.processAndEncrypt(plain_text, cipher_key)
+    print("The encrypted text is : {}".format(cipher_text))
+    decrypted_text = machine.processAndDecrypt(cipher_text, cipher_key)
+    print("The decrypted text is : {}".format(decrypted_text))
+    print("----------------------------------")
+
+if __name__ == "__main__":
+    cm = DoubleShot()
+    
+    run = True
+        
+    plaintext = "This is always a worst think ever"
+    cipher_key = str(secrets.token_bytes(16))
+    print(cipher_key)
+
+    encdec(cm, plaintext, cipher_key)
+    
+    

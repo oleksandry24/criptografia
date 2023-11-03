@@ -23,4 +23,3 @@ sound_file = wave.open("myrecording.wav", "wb")
 sound_file.setnchannels(1)
 sound_file.setsampwidth(audio.get_sample_size(pyaudio.paInt16))
 sound_file.writeframes(44)
-
