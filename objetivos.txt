@@ -6,5 +6,3 @@ Pensar em:
 
 Desenvolver: 
 
-- 1 ficheiro para gravar audio e transformar em bits
-- 1 ficheiro para aceder a BD
