@@ -2,19 +2,30 @@
 # -*- encoding: utf-8 -*-
 
 from secretpy import alphabets as al
-from secretpy import CryptMachine
-from secretpy.cmdecorators import UpperCase
-from secretpy.ciphers.polybius_square import PolybiusSquare
+
 import random
 import string
 from AES import aesEncrypt, aesDecrypt
 import secrets
+import os
+import json
+from datetime import datetime
+import time
+
 
 
 class DoubleShot:
     def __init__(self):
         # Crie o dicionário de substituição no construtor da classe
         self.encryption_dict = self.generate_encryption_dict()
+
+
+    def getdic(self):
+        return self.encryption_dict
+    
+    def storedic(self,Originaldict):
+        self.encryption_dict=Originaldict
+        return True
 
     def generate_encryption_dict(self):
         alphabet = list(string.ascii_uppercase)
@@ -107,15 +118,86 @@ def encdec(machine, plain_text, cipher_key):
     print("The decrypted text is : {}".format(decrypted_text))
     print("----------------------------------")
 
+def savedict(dictionary, file_name,folder_path ='LogsFolder'):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+    timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    timestamped_file_name = f"{timestamp}_{file_name}.json"
+
+    file_path = os.path.join(folder_path, timestamped_file_name)
+
+    with open(file_path, 'w') as file:
+        json.dump(dictionary, file)
+
+
+def listfiles(folder_path='./LogsFolder'):
+    files = [filename for filename in os.listdir(folder_path) if filename.endswith('.json')]
+    print("teste",files)
+    return files
+
+
+def retrievedict(folder_path ='./LogsFolder'):
+    files = listfiles(folder_path)
+
+    if not files:
+        print("No JSON files found in the folder.")
+        return None
+
+    print("Available files in the folder:")
+    for i, file in enumerate(files, start=1):
+        print(f"{i}. {file}")
+
+    while True:
+        try:
+            choice = int(input("Enter the number of the file you want to retrieve (0 to cancel): "))
+            if choice == 0:
+                return None
+            elif 1 <= choice <= len(files):
+                selected_file = files[choice - 1]
+                file_path = os.path.join(folder_path, selected_file)
+                with open(file_path, 'r') as file:
+                    return json.load(file)
+            else:
+                print("Invalid choice. Please enter a valid number.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+
 if __name__ == "__main__":
     cm = DoubleShot()
     
     run = True
-        
-    plaintext = "This is always a worst think ever"
-    cipher_key = str(secrets.token_bytes(16))
-    print(cipher_key)
+    
+    while(run):
+        plaintext =  input("""
+        Enter one of the following options:
+        - Type 'Exit' to exit the program.
+        - Type 'Retrieve' to retrieve an old dictionary to decrypt older messages.
+        - Type 'Decrypt' to decrypt a message.
+        - Type 'Encrypt' to encrypt a message.
+        - Type 'EncryptAndDecrypt' to encrypt and decrypt a message.
 
-    encdec(cm, plaintext, cipher_key)
-    
-    
+        Your choice: """)
+        if(plaintext=="Exit"):
+            break
+        elif(plaintext=="Retrive"):
+            retrieved_dict = retrievedict()
+            if retrieved_dict is not None:
+                print("Retrieved dictionary:")
+                if(cm.storedic(retrieved_dict)):
+                    print("Sucess adding the dictionary")
+        elif(plaintext=="Decrypt"):
+            print("Function no added Yet")
+        elif(plaintext=="Encrypt"):
+            print("Function no added Yet")
+        elif(plaintext=="EncryptAndDecrypt"):
+            msg =  input("Insert message:")
+            cipher_key = str(secrets.token_bytes(16))
+            print(cipher_key)
+            encdec(cm, msg, cipher_key)  
+        else:
+            print("Command Not Recognized")
+        time.sleep(2)
+        
+    savedict(cm.getdic(), "Encryption")
