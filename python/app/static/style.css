@@ -1,0 +1,29 @@
+main {
+    display: block;
+    margin: auto;
+    width: 70em;
+  }
+#sound-clips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60em;
+}
+#visualizer {
+    height: 1em;
+}
+button {
+    height: 3em;
+    width: 12em;
+}
+audio {
+    height: 3em;
+    vertical-align: top;
+}
+#sound-clips article {
+    background: #bbb;
+}
+#sound-clips button {
+    vertical-align: top;
+}
+  

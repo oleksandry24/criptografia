@@ -85,16 +85,15 @@ class DoubleShot:
         transformed_text = self.enigmaCry(plain_text)
         
         # Multiplicar cada caractere pelo valor multiplicador
-        #multiplied_text = self.multiplyChar(transformed_text)
+        multiplied_text = self.multiplyChar(transformed_text)
         
         # Aplicar a criptografia AES
-        cipher_text = aesEncrypt(transformed_text, cipher_key)
+        cipher_text = aesEncrypt(multiplied_text, cipher_key)
 
         multiplied_text = self.multiplyChar(cipher_text)
         
         return multiplied_text
 
-    # Função que incorpora todas as etapas de transformação e a descriptografia AES
     def processAndDecrypt(self,cipher_text, cipher_key):
 
         # Desfazer a multiplicação

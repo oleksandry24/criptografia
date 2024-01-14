@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Otimização Contínua</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="/static/main.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+  <main>
+    <section id="main-controls">
+      <p id="visualizer"></p>
+      <div id="buttons">
+        <button id="record">Record</button>
+        <button id="stop1">Stop</button>
+      </div>
+    </section>
+    <section id="sound-clips"></section>
+  </main>
+
+  <script>
+      const record = document.querySelector("#record");
+      const stop1 = document.querySelector("#stop1");
+      const soundClips = document.querySelector("#sound-clips");
+      const canvas = document.querySelector("#visualizer");
+      const mainSection = document.querySelector("#main-controls");
+
+      stop1.disabled = true;
+
+      if (navigator.mediaDevices.getUserMedia) {
+        console.log("getUserMedia supported.");
+
+        let chunks = [];
+
+        const onSuccess = (stream) => {
+          const mediaRecorder = new MediaRecorder(stream);
+
+          record.onclick = function () {
+            mediaRecorder.start();
+            stop1.disabled = false;
+            record.disabled = true;
+            canvas.innerText = "Cool waveform indicates recording here.";
+          };
+
+          stop.onclick = function () {
+            mediaRecorder.stop();
+            stop1.disabled = true;
+            record.disabled = false;
+            canvas.innerText = "";
+          };
+
+          mediaRecorder.onstop = function (e) {
+            let clipContainer = document.createElement("article");
+            let audio = document.createElement("audio");
+            let deleteButton = document.createElement("button");
+            let saveButton = document.createElement("button");
+
+            clipContainer.classList.add("clip");
+            audio.setAttribute("controls", "");
+            deleteButton.textContent = "Delete";
+            deleteButton.className = "delete";
+            saveButton.textContent = "Save File";
+            saveButton.className = "save";
+
+            clipContainer.appendChild(audio);
+            clipContainer.appendChild(deleteButton);
+            clipContainer.appendChild(saveButton);
+            soundClips.appendChild(clipContainer);
+
+            audio.controls = true;
+            let blob = new Blob(chunks, { type: "audio/ogg; codecs=opus" });
+            chunks = [];
+            let audioURL = window.URL.createObjectURL(blob);
+            audio.src = audioURL;
+            console.log("recorder stopped");
+
+            deleteButton.onclick = (e) => {
+              evtTgt = e.target;
+              evtTgt.parentNode.parentNode.removeChild(evtTgt.parentNode);
+            };
+
+            saveButton.onclick = (e) => {
+              console.log(blob);
+              alert(`Save sends this ${blob.size}-bit audio blob to server`);
+            };
+          };
+
+          mediaRecorder.ondataavailable = function (e) {
+            chunks.push(e.data);
+          };
+        }; // onSuccess
+
+        const onError = (err) => {
+          console.log("The following error occured: " + err);
+        };
+
+        navigator.mediaDevices.getUserMedia({ audio: true }).then(onSuccess, onError);
+      } else {
+        console.log("getUserMedia not supported on your browser!");
+      }
+  </script>
+
+</body>
+</html>
