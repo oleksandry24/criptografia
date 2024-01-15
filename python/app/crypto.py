@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
-from secretpy import alphabets as al
-
 import random
 import string
 from AES import aesEncrypt, aesDecrypt
@@ -11,7 +9,6 @@ import os
 import json
 from datetime import datetime
 import time
-
 
 
 class DoubleShot:

@@ -1,9 +1,4 @@
-# 
-# MSI DDSS 2021/2022 - Assignment 2
-# The code and resources available in this repository are to be used in the scope of the DDSS course.
-#
-# Authors: Nuno Antunes <nmsa@dei.uc.pt>, João Antunes <jcfa@dei.uc.pt>
-#
+
 version: '3'
 
 services:

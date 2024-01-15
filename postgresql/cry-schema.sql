@@ -5,13 +5,13 @@ DROP TABLE IF EXISTS CryptoData;
 
 CREATE TABLE AudioData (
     AudioID INT PRIMARY KEY,
-    AudioContent BLOB,
+    AudioContent BYTEA,
     UploadTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE TextData (
     TextID INT PRIMARY KEY,
-    TextContent BLOB,
+    TextContent BYTEA
 );
 
 CREATE TABLE AudioTextAssociation (

@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import logging, psycopg2
 from datetime import datetime, timedelta
-import base64
 from apscheduler.schedulers.background import BackgroundScheduler
 from crypto import DoubleShot
 from whisper_audio import WhisperProcessor
@@ -19,7 +18,7 @@ def home():
 
 @app.route('/upload_audio', methods=['POST'])
 def upload_audio():
-    print(request.files.keys())  # Imprime as chaves disponíveis
+    print(request.files)  # Imprime as chaves disponíveis
     
     try:
         audio_blob = request.files['audio'].read()
@@ -28,6 +27,8 @@ def upload_audio():
         return 'Áudio recebido com sucesso!'
     except KeyError:
         return 'Erro: Chave "audio" não encontrada nos dados da requisição.'
+
+
 
 # @app.route("/upload", methods = ["POST"])
 # def upload():
