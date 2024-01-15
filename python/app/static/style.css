@@ -1,21 +1,200 @@
-main {
-    display: block;
-    margin: auto;
-    width: 70em;
-  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #000;
+}
+section {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2px;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+section::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#000,#0f0,#000);
+	animation: animate 5s linear infinite;
+}
+@keyframes animate {
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+section span {
+	position: relative;
+	display: block;
+	width: calc(6.25vw - 2px);
+	height: calc(6.25vw - 2px);
+	background: #ffffff;
+	z-index: 2;
+	transition: 1.5s;
+}
+
+section .audio-container {
+	position: absolute;
+	width: 30%;
+    background: #222222;  
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	box-shadow: 15px 20px rgba(0,0,0,9);
+    border-radius: 20px;
+}
+section .audio-container .content {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+section .audio-container .content h2 {
+	font-size: 2em;
+	color: #0f0;
+    
+}
+
+/* ------------------- */ 
+
+
 #sound-clips {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 60em;
+    max-width: 60%;
 }
-#visualizer {
+
+#vis {
     height: 1em;
+    color: white;
 }
-button {
-    height: 3em;
-    width: 12em;
+
+#record {
+    align-items: center;
+    background: #222222;  
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
+  
+#record:focus {
+    color: #171e29;
+}
+  
+#record:hover {
+    border-color: rgb(38, 255, 0);
+    fill: rgb(13, 255, 0);
+}
+  
+#record:active {
+    border-color: rgb(13, 255, 0);
+    fill: rgb(13, 255, 0);
+}
+  
+@media (min-width: 768px) {
+    #record {
+      min-width: 170px;
+    }
+}
+
+
+
+
+#btn-stop {
+    align-items: center;
+    background: #222222;  
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+#btn-stop:focus {
+    color: #171e29;
+}
+  
+#btn-stop:hover {
+    border-color: rgb(38, 255, 0);
+    fill: rgb(13, 255, 0);
+}
+  
+#btn-stop:active {
+    border-color: rgb(13, 255, 0);
+    fill: rgb(13, 255, 0);
+}
+  
+@media (min-width: 768px) {
+    #btn-stop {
+      min-width: 170px;
+    }       
+}
+
+
 audio {
     height: 3em;
     vertical-align: top;
@@ -26,4 +205,25 @@ audio {
 #sound-clips button {
     vertical-align: top;
 }
-  
+
+/* ------------------- */ 
+
+.header {
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+}
+.header .logo-container {
+    margin-left: 8%;
+}
+.header .logo-container a {
+    text-align: center;
+    width: 0.5rem;
+}
+
+.header .logo-container a img {
+    width: 9%;
+}
+
+

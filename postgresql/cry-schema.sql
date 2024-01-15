@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS AudioTextAssociation;
 DROP TABLE IF EXISTS AudioData;
 DROP TABLE IF EXISTS TextData;
+DROP TABLE IF EXISTS CryptoData;
 
 CREATE TABLE AudioData (
     AudioID INT PRIMARY KEY,
@@ -19,5 +20,11 @@ CREATE TABLE AudioTextAssociation (
     UploadTime TIMESTAMP,
     ConversionTime TIMESTAMP DEFAULT NULL,
     FOREIGN KEY (AudioID) REFERENCES AudioData(AudioID) ON DELETE CASCADE,
+    FOREIGN KEY (TextID) REFERENCES TextData(TextID) ON DELETE CASCADE
+);
+
+CREATE TABLE CryptoData (
+    TextID INT PRIMARY KEY,
+    EncryptionAlgorithm JSON,
     FOREIGN KEY (TextID) REFERENCES TextData(TextID) ON DELETE CASCADE
 );
