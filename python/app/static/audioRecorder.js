@@ -69,12 +69,12 @@ const record = document.querySelector("#record");
                 method: 'POST',
                 body: blob,
                 headers: {
-                    'Content-Type': 'audio/ogg; codecs=opus'
+                    'Content-Type': 'audio/mpeg'
                   }
                 })
                 .then(response => response.text())
                 .then(data => {
-                    alert(data);
+                    alert('Áudio recebido com sucesso!');
                 })
                 .catch(error => {
                     console.error('Erro ao enviar áudio para o servidor:', error);
@@ -114,19 +114,6 @@ const record = document.querySelector("#record");
             clearInterval(recordingInterval);
             record.innerText = "Record";
             secondsElapsed = 0
-        };
-
-        const updateTimer = () => {
-            secondsElapsed++;
-
-            const minutes = Math.floor(secondsElapsed / 60);
-            const seconds = secondsElapsed % 60;
-
-            record.innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-
-            if (secondsElapsed >= 30) {
-                stopRecording();
-            }
         };
 
       navigator.mediaDevices.getUserMedia({ audio: true }).then(onSuccess, onError);

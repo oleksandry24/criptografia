@@ -1,0 +1,787 @@
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 549-774-349
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 15:13:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 15:13:11] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 15:13:11] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 15:13:11] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 15:13:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 549-774-349
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:20] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:20] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:20] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:22] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:22] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:45:49] "[33mPOST /upload_audio HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:47:31] "[33mPOST /upload_audio HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 549-774-349
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 549-774-349
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:48:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:48:40] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:48:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:48:40] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:49:00] "[33mPOST /upload_audio HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:50:26] "[33mPOST /upload_audio HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 480-002-242
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:48] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:48] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:59] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:53:59] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:54:14] "[33mPOST /upload_audio HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 235-647-758
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 235-647-758
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 271-638-691
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:56:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:56:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:56:47] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:56:47] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESFULL TO DB
+ERROR:logger:ERROR: [Errno 2] No such file or directory: 'Audios/audio_received.ogg'
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 17:57:49] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 870-114-247
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-897-003
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:04:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:04:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:04:52] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:04:52] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+ERROR:logger:ERROR: [Errno 2] No such file or directory: 'Audios/audio_received.ogg'
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:05:02] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 113-773-004
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:06:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:06:56] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:06:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:06:56] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+ERROR:logger:ERROR: [Errno 2] No such file or directory: 'Audios/audio_received.ogg'
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:07:21] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-610-292
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+ERROR:logger:ERROR: null value in column "audioid" of relation "audiodata" violates not-null constraint
+DETAIL:  Failing row contains (null, \x3a08123213a9bac1de69df0e82048c86143d3a9bac4da82c9626e8a6eb2e9e..., 2024-01-16 18:09:21.00318).
+
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:09:21] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+ERROR:logger:ERROR: null value in column "audioid" of relation "audiodata" violates not-null constraint
+DETAIL:  Failing row contains (null, \x3a081240ea6eb0779a77c3a0812f4ea6eb136a0b2589ba29bacba7927a309c..., 2024-01-16 18:09:32.554645).
+
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:09:32] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 761-054-674
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:12:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:12:01] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:12:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:12:01] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+ERROR:logger:ERROR: null value in column "audioid" of relation "audiodata" violates not-null constraint
+DETAIL:  Failing row contains (null, \x3a08123a9bac1de69df0e8204b157d3a9bac4da82c9626e8a6eb2e9e49e8c2..., 2024-01-16 18:12:11.250732).
+
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:12:11] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-947-513
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:22:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:22:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:22:10] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:22:10] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 1
+INFO:werkzeug:172.18.0.1 - - [16/Jan/2024 18:22:20] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 18:59:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 18:59:10] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 18:59:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 18:59:10] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 1
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 18:59:19] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 2
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:00:18] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 3
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:01:03] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 4
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:02:41] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-709-747
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 5
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:03:57] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 6
+ERROR:logger:ERROR: 'datetime.datetime' object does not support indexing
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:05:19] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:06:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:06:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:06:29] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:06:29] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 7
+ERROR:logger:ERROR: 'datetime.datetime' object does not support indexing
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:06:35] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 8
+ERROR:logger:ERROR: 'WhisperProcessor' object is not callable
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:07:06] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 9
+ERROR:logger:ERROR: expected str, bytes or os.PathLike object, not memoryview
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:08:38] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 10
+ERROR:logger:ERROR: embedded null byte
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:09:38] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:10:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:10:41] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:10:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:10:42] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 11
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3\x00,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\x00\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x00\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x00\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2\x00|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+ERROR:logger:ERROR: embedded null byte
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:10:55] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/whisper_audio.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 12
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3\x00,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\x00\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x00\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x00\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2\x00|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+ERROR:logger:ERROR: expected str, bytes or os.PathLike object, not BytesIO
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:13:33] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 13
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3\x00,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\x00\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x00\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x00\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2\x00|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+ERROR:logger:ERROR: expected str, bytes or os.PathLike object, not BytesIO
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:15:12] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/whisper_audio.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 14
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3\x00,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\x00\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x00\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x00\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2\x00|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+ERROR:logger:ERROR: 'utf-8' codec can't decode byte 0xb1 in position 1817: invalid start byte
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:16:11] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 15
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3\x00,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\x00\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x00\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x00\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2\x00|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+ERROR:logger:ERROR: 'utf-8' codec can't decode byte 0xb1 in position 3: invalid start byte
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:17:31] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 16
+INFO:logger:
+Audio Content: b':\x08\x12\xb19\n:\x9b\xac\x1d\xe6\x9d\xf0\xe8 J\xc8}:\x9b\xacM\xa8,\x96&\xe8\xa6\xeb.\x9eI\xe8\xc2q\r\x08\xe0\xc4D\xca3\x8aYZ\xd7mt\xd4\xe8 KK:\x04\x17\x81\x04\x10A\xd0!\xd9}x\x05\xaf\x11\xb3C-\xcfuu\x06\xbbh\xf0\xf3=kB\xb6\'\xf3\x0b=\xd3\xac\x19R\xc8\xf0\xe6\x0b\x9c\xec\xed\xf3\x086K\x88\xb3\x00,\xc4\x85\x9ez"\x1b\'\xc1\x99\xe2\x15\xd5#\x07\xe4\xcabZ+qf-y\x07\xe8J\xa9\x10\xf6\xcd\xc892\xf2\x9dMB\x97n\xe3Zh\xb3O\\%pN<N\x99J\x06HJGmg\xcd!\x19\x9b\xfe:^\x8dXl4\xaf!\xf6P\x00\xba\xd1\xced\xdb!\xeeG\x8e?\x86\xf5+\xdd!\xd5\x90\x1f>Ea\xed\xae\x88\x90\xfd\xeddw\xcc[\x7f+*\xff\xfd\x99&\xd5\x97\x16\x11\xcb~\x93\x0fm\xc3s~\x85RP\xc3]\xc9@7Z \xb7\xd5\x0fV\x05r\xb6\x0e@U\xe8@\x8b,r\xab\xea<\x00\x12\x82\xbeB&XE\xbd[Q/\xfd\xb8RQ\xde\x91\xe6\xf4mhB8\xaf{\x05\xaf\xcd:\x86R\x97\xd1+\xe5\x98\xcb\xd0\xd6Zh\x82\x19\x9f\xb9 \xd2-\xe75\\(\x08t\x84\xa4\x0b\xae\xdbq\xcd\x9e7\xd6\xaaf|L\xd2\x8f\x9d\xca\x16\xd42\x95\xd1\xfb\xa5\xf0\xc7;\x1b\x9d\xe2/e\x8b\x812eM\xde\x83\xaco\xe3ql\t\xf9\xeds\x19\x1d%\xb4\x01\xe3\xa2\xb8uy\xf5\xc3\x7f.\xea#\x02&+a\x96L\xa5[j\xb8\xf9\xf6a\xa8\x84\x9a\xb8\xa3\xca\xb5Qg\xae4\x03\x03\x11\xab@\xf9\xb7s$\xea?@O\x8dd\x15l#\xa7\x17\xaeoy\x16\xc8i\xe8y\x80!\xdc\x10\xc1\xb5+\xe6}\\E\xbe;\x1a\xe7\x1c\xdb\x1de\xe3\xa2F\xb6\xd4\x0e\xd5\x87\xa6\xa7\x04\xf6%a\x1a\x1bCI\xa6\xe7y\xb6\x1d\xea\x91x\x08|\xc7)\xbd\xfe\xf9,\xfcU\xb4e\x1a\x909\x95P_\xa0\xa8{zO\xfb/\xbc\xb2%V*M-\xab\xed]{4<\xd0\t\xe6<\x84\xa5\xeb\xbf\xf4Km7;\xa33\x11\xa3\xd7\xb5e{cR\xac\x95<\xef)\x02^\xde\xaf\xdcgd\xe2>\x83\xb7\xf2s\xd9\x13\xf3\xd3\xa7\xdct@\xf9\xdd\x00\x08\x84\x83U}"!<\xe4\x84\xb2a\x89D5j6\x9a\xc9B\xce&)u\x01"\n\xb2^0\xb2\x03\xdbr\x16\xcc\xe6\xbe\x92d\x8e\xf9Z\xe7\xd3<\x0c\xa5|\x90\xa8\xe2DKi\xfc\xd4\x13\xe9]0\n\x0b\xc0\x1a?\xcb\xe4\xf7\xc1\xf5\xed\x02e\xbd\xe2a\x1e5\xa8s(s\xb3\x1c\xe9~q\xa3\xc9RH\xd8\xc8e\x7f\x8e\xdd\xb6\xf6\x0c\xa2\xf4<wQQn\xa3\x9b\x99\xd2\x00|\xc5\xac\xf3\x15>\x94\x82:\x1e!\xf0\xc0\xc0$Ca\xdb\xa9\x94^\x04\x0b_I\xcc\xae\xdaSp\xcb\x14O\xf2@\xc0\xbc\xb6b\xfa\x7f_\xedm\xdd\x0f\xf8\xcd\xf0\x0ca\xabY\xbc\xfa=;\x04G'
+ERROR:logger:ERROR: 'utf-8' codec can't decode byte 0xb1 in position 3: invalid start byte
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:21:32] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 17
+ERROR:logger:ERROR: [Errno 2] No such file or directory: 'Audios/audio_received.ogg'
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:22:23] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-612-447
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 18
+ERROR:logger:ERROR: [Errno 2] No such file or directory: '/app/Audios/audio_received.ogg'
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:23:35] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 556-434-945
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 19
+ERROR:logger:ERROR: int() argument must be a string, a bytes-like object or a number, not 'datetime.datetime'
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:30:34] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 20
+ERROR:logger:ERROR: [Errno 2] No such file or directory: 'Audios/audio_2024-01-16 19:33:56.242760.ogg'
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:33:56] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 21
+ERROR:logger:ERROR: [Errno 2] No such file or directory: '/app/Audios/audio_2024-01-16 19:36:25.550188.ogg'
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:36:25] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 22
+ERROR:logger:ERROR: 'WhisperProcessor' object is not callable
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:41:33] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 23
+ERROR:logger:ERROR: 'WhisperProcessor' object is not callable
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:41:56] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 24
+ERROR:logger:ERROR: name 'whisper' is not defined
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:42:19] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/whisper_audio.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 25
+ERROR:logger:ERROR: name 'whisper' is not defined
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:42:52] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 26
+ERROR:logger:ERROR: 'WhisperProcessor' object is not callable
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:44:32] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 27
+ERROR:logger:ERROR: Failed to load audio: ffmpeg version 5.1.4-0+deb12u1 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12 (Debian 12.2.0-14)
+  configuration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+/app/Audios/audio_1705434297.ogg: Invalid data found when processing input
+
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:44:58] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 28
+ERROR:logger:ERROR: Failed to load audio: ffmpeg version 5.1.4-0+deb12u1 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12 (Debian 12.2.0-14)
+  configuration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mp3 @ 0x5604a952da40] Format mp3 detected only with low score of 1, misdetection possible!
+[mp3 @ 0x5604a952da40] Invalid frame size (720): Could not seek to 934.
+/app/Audios/audio_1705434391.wav: Invalid argument
+
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:46:32] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 29
+ERROR:logger:ERROR: Failed to load audio: ffmpeg version 5.1.4-0+deb12u1 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12 (Debian 12.2.0-14)
+  configuration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mp3 @ 0x563b616f4a40] Format mp3 detected only with low score of 1, misdetection possible!
+[mp3 @ 0x563b616f4a40] Invalid frame size (720): Could not seek to 934.
+/app/Audios/audio_1705434464.wav: Invalid argument
+
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:47:46] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 811-602-161
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert. Audio ID: 30
+ERROR:logger:ERROR: Failed to load audio: ffmpeg version 5.1.4-0+deb12u1 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12 (Debian 12.2.0-14)
+  configuration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+[mp3 @ 0x55d5debd5a40] Format mp3 detected only with low score of 1, misdetection possible!
+[mp3 @ 0x55d5debd5a40] Invalid frame size (720): Could not seek to 934.
+/app/Audios/audio_1705434535.mpeg: Invalid argument
+
+INFO:werkzeug:172.19.0.1 - - [16/Jan/2024 19:48:56] "POST /upload_audio HTTP/1.1" 200 -
