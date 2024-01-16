@@ -114,3 +114,342 @@ INFO:werkzeug: * Debugger PIN: 766-887-176
 INFO:werkzeug:127.0.0.1 - - [15/Jan/2024 21:34:20] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Jan/2024 21:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [15/Jan/2024 21:34:20] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://194.210.33.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:24:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:24:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:24:46] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:24:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:25:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:25:36] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:26:23] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:27:24] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:29:33] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:30:22] "[35m[1mPOST /upload_audio HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:30:39] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:31:42] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:32:03] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:38:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:38:36] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:38:36] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:38:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:38:55] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:38:55] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:41:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:41:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:41:30] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:41:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:42:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:42:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:42:03] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:42:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:42:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:42:44] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:43:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:43:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:43:55] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://194.210.33.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:44:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:44:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:44:18] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:44:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:45:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:45:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:45:35] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:46:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:46:07] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:46:07] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:47:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:47:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:47:29] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://194.210.33.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:45] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:49:56] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:50:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:50:04] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:50:04] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 01:50:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:03:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:03:49] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:03:49] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:03:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:13] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:29] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:04:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:05:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:05:30] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:05:30] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:05:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:06:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:06:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:06:05] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:06:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:06:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:08] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:50] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:07:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:08:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:08:45] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:08:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:08:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:05] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:14] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:14] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:24] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:24] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:55] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:55] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:09:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:47] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:47] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:54] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:54] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:10:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:11:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:14:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:14:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:14:29] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:14:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:15:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:15:44] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:15:44] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:15:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:15:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:38] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:50] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:57] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:57] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:16:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:17:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:18] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:46] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:18:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:19:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:19:11] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:19:11] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:19:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:19:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:23:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:23:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:23:15] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:23:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:24:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:24:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:24:08] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:24:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:25:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:25:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:25:08] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:25:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:25:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:04] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:04] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:46] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:26:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:27:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:22] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:47] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:49] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:49] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:29:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:30:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:00] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:09] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:09] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:31:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:21] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:36] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:36] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:48] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:48] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:32:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:34:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:34:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:34:40] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:34:40] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:34:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:05] "[33mGET /audioRecorder.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:05] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:18] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:39] "POST /upload_audio HTTP/1.1" 200 -

@@ -7,12 +7,7 @@ main {
     top: 50%;
 }
 
-#sound-clips {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 60em;
-}
+
 #visualizer {
     height: 1em;
 }
@@ -22,11 +17,5 @@ button {
 }
 audio {
     height: 3em;
-    vertical-align: top;
-}
-#sound-clips article {
-    background: #bbb;
-}
-#sound-clips button {
     vertical-align: top;
 }

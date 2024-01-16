@@ -18,11 +18,9 @@ def home():
 
 @app.route('/upload_audio', methods=['POST'])
 def upload_audio():
-    print(request.files)  # Imprime as chaves disponíveis
-    
     try:
-        audio_blob = request.files['audio'].read()
-        with open('audio_received.ogg', 'wb') as f:
+        audio_blob = request.data
+        with open('Audios/audio_received.ogg', 'wb') as f:
             f.write(audio_blob)
         return 'Áudio recebido com sucesso!'
     except KeyError:

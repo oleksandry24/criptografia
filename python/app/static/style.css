@@ -80,13 +80,70 @@ section .audio-container .content h2 {
 
 /* ------------------- */ 
 
+#sound-clips article {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background: #bbb;
 
-#sound-clips {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 60%;
+    
 }
+
+#sound-clips button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#sound-clips button:hover {
+    background: #555;
+}
+#sound-clips article audio {
+    width: 20em;
+    height: 2em;
+
+    margin-top: 10px;
+    background: #333;
+    border-radius: 4px;
+    padding: 8px;
+    color: #fff;
+    border: none;
+}
+
+#sound-clips article audio::-webkit-media-controls-panel {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+#sound-clips article audio::-webkit-media-controls-play-button,
+#sound-clips article audio::-webkit-media-controls-timeline {
+    color: #fff;
+}
+
+#sound-clips article audio::-webkit-media-controls-current-time-display,
+#sound-clips article audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+}
+
+#sound-clips article audio::-webkit-media-controls-mute-button,
+#sound-clips article audio::-webkit-media-controls-volume-slider {
+    background-color: #333;
+    color: #fff;
+}
+
+#sound-clips article audio::-webkit-media-controls-fullscreen-button {
+    color: #fff;
+}
+
+
+
+
 
 #vis {
     height: 1em;
@@ -197,12 +254,7 @@ audio {
     height: 3em;
     vertical-align: top;
 }
-#sound-clips article {
-    background: #bbb;
-}
-#sound-clips button {
-    vertical-align: top;
-}
+
 
 /* ------------------- */ 
 
