@@ -8,6 +8,9 @@ import base64
 import os
 import time
 
+
+
+
 app = Flask(__name__)
 scheduler = BackgroundScheduler()
 scheduler.start()
@@ -110,13 +113,23 @@ def upload():
 
 
         ## PROCESS AUDIO
+        cur.execute("SELECT * FROM AudioData")
+        row = cur.fetchall()
+
+        for r in row:
+            logger.info(r)
 
         query = "SELECT AudioID, AudioContent FROM AudioData WHERE UploadTime <= %s;"
-        cur.execute(query, (datetime.now() - timedelta(minutes=1),))
+        cur.execute(query, (datetime.now() - timedelta(minutes=60),))
         rows = cur.fetchall()
 
         for row in rows:
+
             audio_id, audio_content = row
+
+            if audio_content == None:
+                logger.info("Ja foram todos convertidos em texto!!")
+                break
 
             whisper = WhisperProcessor()
             
@@ -132,7 +145,6 @@ def upload():
             excluir_arquivo_audio(audio_path)
    
             # algoritmo de encriptação
-
             doubleShot = DoubleShot()
             encrypted_text = doubleShot.processAndEncrypt(text_content)
 
@@ -147,17 +159,40 @@ def upload():
             text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING TextID;"
             cur.execute(text_query, (encrypted_text_bytes,))
             text_id = cur.fetchone()[0]
+            conn.commit()
             logger.info(f"New TextID: {text_id}")
 
             logger.info("Try Insert into AudioTextAssociation...")
             association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s, %s, %s);"
-            cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(minutes=1), datetime.now()))
+            cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(hours=24), datetime.now()))
+            conn.commit()
             logger.info(f"New insert Sucessfull")
         
         logger.info("Updating table AudioData...")
         update_query = "UPDATE AudioData SET AudioContent = NULL WHERE UploadTime <= %s;"
-        cur.execute(update_query, (datetime.now() - timedelta(hours=48),))
+        cur.execute(update_query, (datetime.now() - timedelta(minutes=60),))
+        conn.commit()
         logger.info("Update sucessfull!")
+
+        cur.execute("SELECT * FROM AudioTextAssociation")
+        row = cur.fetchall()
+
+        for r in row:
+            logger.info(r)
+
+        cur.execute("SELECT * FROM TextData")
+        row = cur.fetchall()
+
+        for r in row:
+            logger.info(r)
+
+        cur.execute("SELECT * FROM AudioData")
+        row = cur.fetchall()
+
+        for r in row:
+            logger.info(r)
+
+        
 
 
     except (Exception, psycopg2.DatabaseError, KeyError) as e:
@@ -214,6 +249,7 @@ def process_audio(connection, cursor):
 
         update_query = "UPDATE AudioData SET AudioContent = NULL WHERE UploadTime <= %s;"
         cursor.execute(update_query, (datetime.now() - timedelta(hours=48),))
+
 
         connection.commit()
         cursor.close()

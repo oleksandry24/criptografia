@@ -1272,3 +1272,2752 @@ INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 14:41:37] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 14:41:38] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 14:41:38] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 14:41:39] "GET /admin HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 161-687-855
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:53:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:53:26] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:53:26] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:53:26] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:53:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 12
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌַይอ໾஧ࡶྃୈ໘ሯྃૃ༑ሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 15
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒ෬ഐᔎݤദᆈᔎᇶᇊദᔎᄚ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 16
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ڸᏬ໬ာరࣨၔ௴௴ጤၔ୔ྠጤ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 17
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌ&ይอર்۔ሯྃཝୈሯྃཝ்
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 18
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ዚ஺ሯ٢ཝ༤ሯ༷ྃ୛ሯྃ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 19
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ްذਠ݄ৌॸĬ଄ୀ஬ஸઌ୼ৌܠ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 20
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒ෬ᆈᔎݤᄰᅜᔎᇶᆈᅜᔎᇶ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 21
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೤జጤڸ୔௴၀ᆀጤၔྠ࿰
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 22
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ቕ஺ሯ٢໘રሯྃཝୈ୮ሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 23
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᛒ้ᘃ޺ഇቫᘃ዇ഇᇸᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 24
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣံ༼໱ଢᑩᏬᐷᚨ៭ᑩᏓᐷ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 25
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:54:22] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 161-687-855
+INFO:werkzeug: * Detected change in '/app/crypto.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 161-687-855
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:56:21] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:56:21] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:56:21] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:56:21] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 161-687-855
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:58:56] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 18:58:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 13
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜ߑᛩᄩഇූڏᘃ዇඿ሽኰᚻᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 26
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೐࿈ጤڸ࿈௴ጤၔୀငጤၔ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 27
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣဝ྇៭ࡦᎈ༊៭ᑩᐷ༊៭ᑩ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 28
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ஗૶Ꭽᖐኙᘃ޺ሦปᘃ዇ኙቫᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 29
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒᔺൾᔎݤᅲദᔎᇶᅲഐᔎᇶ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 30
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁౒஁ሯ٢༑ୈሯྃୈୈ੷ሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 31
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ߈඘ຈ᎘ገɀᎀᛸ᎘ዀ๰ᛸ᎘ጸ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 32
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒᗪ഼ᆴৌᇶᄰඪᔎᇶᆞᆈᔎ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 33
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽຎኙᘃ޺ᇸ඿ᑥᘃ዇೰ኙᘃ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 34
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒ෬ᇊ୘ࡖᔎᇶᅜ഼ఞᖾᔎᇶ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 35
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ୰ᒈླྀຈᛸࠐ඀ዀᛸ᎘ዀຸᛸ᎘
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 36
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: འഈ୰ᒸ໨ᚘ᎘ۀደᛸ᎘፨໨ᛸ᎘๘
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 37
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:12:51] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 14
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+ERROR:logger:ERROR: 'psycopg2.extensions.cursor' object has no attribute 'excecute'
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:17:00] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 15
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:17:14] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 16
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:17:47] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 17
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘ڞᗪၪᆞౠৌᇶദᇊᔎᇶᆞᅲᔎ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 38
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ఙ༤ሯ٢༤்ሯ༷ྃཝཝሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 39
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ߈៨ᇨเຸર᎘ደዀᛸ᎘ዀ໨ᛸ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 40
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣᣧ྇៭ࡦᎺ༼៭ᑩฐᎺ៭ᑩ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 41
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋ଆੜྛǋ࿰၅෡ড൪၅෡ൈ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 42
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘आᗪၪౠഐৌᇶദᅜᒶᔎᇶᄰౠ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 43
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨Ơ᧦፦ྊ࿲ஔᔺᑐ຺ᣢᔺᒄ࿘Ꮄ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 44
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁బஔሯ٢໾஺ሯྃ༑༑ሯྃ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 45
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴કՀᓫྫၨௐ?ᐄᑘᐙᄥ௥ಷഋᐙ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 46
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠٸ៨ᇨጸ๘ર᎘เደነᛸ᎘เຠ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 47
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾၚᒄᣢࢼᔆຠᣢᔺᑐᓒᖈᣢ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 48
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ೐ଘঈၔྠဘጤڸ࿈௠ጤၔငୀጤၔ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 49
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ٨Ԩ֠ӄࠪ˸ހԲ৶ࠪ߸؄ʨ߸ࢎߐފ֌Ԋ৶ݢފߤ֖঒ݬڸ׈Լیݶߐ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 50
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 14
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᦠᒠ♈ະᚨϨ⟘∸ᛐᚨ⍐▨˸▨ᜠ♈Ḩᘰ⎠∸➈ᜠ♈₨ៀ➰ᑐ⟘₨ᛸ▀♈
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 51
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:18:53] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 18
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔੫ᐮಷᄥ಍Ȣᐙᄥௐಢᐙᄥ჻ೡ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 52
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈैࢂᇮ൮ਲิ߲ᄺາૂ૦ᄺາຎଜ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 53
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ׄҤαժԽ࢝ݙĎܬ࢝ݙܵ֎࢝ݙܵ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 54
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋პ੾၅ֶ൪ঐ๘ၧ၅෡ൈੜ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 55
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾ᣼྾ᔠஔᔺᒸ཰ᣢᔺຠ࿘ᣢ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 56
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁௳ஔሯ٢໘ૃሯྃୈ୛ၧሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 57
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೐ౄጤڸင୔ਨጤᄜጤၔင
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 58
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ްذπ঴ތ୼ৌŴজ঄୼ৌیজ୼ৌ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 59
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋઱ডອ۹ჯ၅෡൪඿ਘ၅෡
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 60
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷവ႒ᐙ܎Ⴜௐᐙᄥၨ಍ᐙᄥ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 61
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣံཕᜥڽ៭ᑩᏬᏓុඓ៭ᑩ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 62
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ൴஦ਂᄥბహᐙ܎ბ಍ᐙᄥႼௐᐙᄥ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 63
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:1
+INFO:logger:52
+INFO:logger:2024-01-17 19:18:25.179364
+INFO:logger:2024-01-17 19:19:25.179382
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:19:54] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:werkzeug: * Detected change in '/app/AES.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 19
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾ᧦཰ຠ܂ᣢᔺ཰࿲ุ൨ᒸᣢ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 64
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾၴ࿲ᣢࢼᔆဌᣢᔺᒸᒄᙲဌ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 65
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄ޴ჯಯൻ൪ޒ෡ൈൻ༤༵၅෡ড
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 66
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ٨Ԩʲ־؎ࠪװĘच৬঒ࠪ׺؄स঒
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 67
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ငಙ௪ᕣ࿒༣៭ࡦษ྇៭ᑩฐฐෞ๛
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 68
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈै࢔ས୶ર෈֎ᄺາ๘ଜᄺາ๘ਲ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 69
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌڈર஁ྃૃȁሯྃ༤்ኡሯྃୈ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 70
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ܌֬c૵࠵ذࢮԨઇࣻࣥڿઇࣻڈڴ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 71
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈैü૦சᄺາƞ૸ᄺາૂଊᄺາฐ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 72
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᛩ෭ዞਾ዇ඨቫᘃ዇ᇸ้ᔝ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 73
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠŨ៨ᇨጠ፨ᛸ᎘เ๰ᗘ෸ᛸ᎘
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 74
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ೐ଘঈၔୀྴጤڸ࿈ౘጤၔ୔௠࿰ጤ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 75
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:1
+INFO:logger:64
+INFO:logger:2024-01-17 19:20:33.009556
+INFO:logger:2024-01-17 19:21:33.009570
+INFO:logger:64
+INFO:logger:<memory at 0x7f567e382640>
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:22:04] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 20
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣံᏓ៭ࡦฐᎈ៭ᑩ໱྇ළᐞ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 76
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄ ჯಯঐঐޒ෡඿൪ෲ၅෡඿੾
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 77
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈै࢔སச૔ᄺ،๪๘ᄺາๆ૸ᄺາ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 78
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜Eᛩᄩሽቔࠖᘱᑥᘃ዇ඨሽᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 79
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋პਘ၅ֶඝએ೑၅෡ൈඌ၅
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 80
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋ၖൈ၅ֶൻਘ၅෡ঐ੾၅෡
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 81
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽ๷඿ᘃ޺ቔ෭ᘃ዇ᇸቫಫᒪ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 82
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜١Ᏺᔴడᘃ޺೰ኙᘃ዇ඨቫᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 83
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽລഇᘃ޺ሦ඿Ᏺቫᘃ዇ᇸ೰
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 84
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋პঐ၅ֶൻൈೳඌ၅ഷ၅෡
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 85
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ԠРϐ٨Әڈ҈ðިڈ٨҈ިڈҀٸ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 86
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ஈৼ࢔າฐ૸ᄺ،๪ଜᄺາ๘૦ᄺາ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 87
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᫨ᖨᙺᐄ≊ಢᾀ∠⧖≊↢᥄आ☐᠞ᦘᾪᝌᣰ⧖ἂᾀℤ⏄⠲Ἤᱢᡈ⠲ᚤ⢆ᦘ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 88
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 76, datetime.datetime(2024, 1, 17, 19, 21, 50, 462066), datetime.datetime(2024, 1, 17, 19, 22, 50, 462098))
+INFO:logger:(2, 77, datetime.datetime(2024, 1, 17, 19, 21, 53, 119019), datetime.datetime(2024, 1, 17, 19, 22, 53, 119032))
+INFO:logger:(3, 78, datetime.datetime(2024, 1, 17, 19, 21, 55, 634217), datetime.datetime(2024, 1, 17, 19, 22, 55, 634231))
+INFO:logger:(4, 79, datetime.datetime(2024, 1, 17, 19, 21, 58, 562660), datetime.datetime(2024, 1, 17, 19, 22, 58, 562676))
+INFO:logger:(5, 80, datetime.datetime(2024, 1, 17, 19, 22, 1, 56448), datetime.datetime(2024, 1, 17, 19, 23, 1, 56464))
+INFO:logger:(6, 81, datetime.datetime(2024, 1, 17, 19, 22, 3, 610802), datetime.datetime(2024, 1, 17, 19, 23, 3, 610820))
+INFO:logger:(7, 82, datetime.datetime(2024, 1, 17, 19, 22, 6, 139223), datetime.datetime(2024, 1, 17, 19, 23, 6, 139242))
+INFO:logger:(8, 83, datetime.datetime(2024, 1, 17, 19, 22, 8, 732331), datetime.datetime(2024, 1, 17, 19, 23, 8, 732348))
+INFO:logger:(9, 84, datetime.datetime(2024, 1, 17, 19, 22, 11, 326117), datetime.datetime(2024, 1, 17, 19, 23, 11, 326131))
+INFO:logger:(10, 85, datetime.datetime(2024, 1, 17, 19, 22, 13, 952954), datetime.datetime(2024, 1, 17, 19, 23, 13, 952977))
+INFO:logger:(11, 86, datetime.datetime(2024, 1, 17, 19, 22, 16, 512768), datetime.datetime(2024, 1, 17, 19, 23, 16, 512781))
+INFO:logger:(12, 87, datetime.datetime(2024, 1, 17, 19, 22, 19, 337872), datetime.datetime(2024, 1, 17, 19, 23, 19, 337889))
+INFO:logger:(13, 88, datetime.datetime(2024, 1, 17, 19, 22, 22, 269633), datetime.datetime(2024, 1, 17, 19, 23, 22, 269649))
+INFO:logger:(76, <memory at 0x7f30e6059a00>)
+INFO:logger:(77, <memory at 0x7f30e47c2700>)
+INFO:logger:(78, <memory at 0x7f30e47c27c0>)
+INFO:logger:(79, <memory at 0x7f30e47c2880>)
+INFO:logger:(80, <memory at 0x7f30e47c2940>)
+INFO:logger:(81, <memory at 0x7f30e47c2a00>)
+INFO:logger:(82, <memory at 0x7f30e47c2ac0>)
+INFO:logger:(83, <memory at 0x7f30e47c2b80>)
+INFO:logger:(84, <memory at 0x7f30e47c2c40>)
+INFO:logger:(85, <memory at 0x7f30e47c2d00>)
+INFO:logger:(86, <memory at 0x7f30e47c2dc0>)
+INFO:logger:(87, <memory at 0x7f30e47c2e80>)
+INFO:logger:(88, <memory at 0x7f30e47c2f40>)
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:23:22] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:24:33] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 21
+INFO:logger:(1, <memory at 0x7faa70ed9700>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7faa70ed9880>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7faa70ed9ac0>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7faa70ed9b80>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7faa70ed9c40>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7faa70ed9d00>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7faa70ed9dc0>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7faa70ed9e80>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7faa70ed9f40>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7faa70644040>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7faa70644100>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7faa706441c0>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7faa70644280>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7faa70644340>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7faa70644400>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7faa706444c0>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7faa70644580>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7faa70644640>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7faa70644700>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7faa706447c0>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7faa70644880>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈै࢔ས஬૸ᄺ،ๆๆᆂᄺາฐฐᄺ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 89
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨᧦፦ᒞᑐஔᔺ຺ဌᣢᔺᓒຠᣢ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 90
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣ࿒ฐ៭ـ៭ᖕ៭ᑩᐅ༊ᢃ៭
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 91
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁௳ཝሯ٢༑໘ဈሯྃરરሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 92
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁బ஧ሯ٢ཝཝ࿵ሯྃ໾஧ሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 93
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣ᠆ཕയଢᑩᏓᐷษ៭ᑩฐ໘
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 94
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ይ༷ਘࡶྃཝૃዚሯྃ໾୛
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 95
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄwई੾็၅ֶ඿ਘ၅෡ਘ਺ၸ၅
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 96
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೸ఈሌࣨၔာ࿰ጤၔင࿰ཐ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 97
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೸ఈጤڸ࿰ఈጤၔငౘᄈጤ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 98
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ୰ᒈᜨገᛸࠐጸ඀Ꮀᛸ᎘፨ጸᒠ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 99
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ٨֌ӄ߆ި४ࠪĬج঒ࠪࠖ֠঒߆঒
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 100
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᦠᒠ₀ጐ₨ͰỰ⟘∸ៀ⁘▨˸♈ᝰ♈ḨᘰḨ⟘ᶈᠸῠ♈₨⚘᭘⟘₨ម◐♈
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 101
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 89, datetime.datetime(2024, 1, 17, 19, 25, 22, 987183), datetime.datetime(2024, 1, 17, 19, 26, 22, 987194))
+INFO:logger:(2, 90, datetime.datetime(2024, 1, 17, 19, 25, 25, 420939), datetime.datetime(2024, 1, 17, 19, 26, 25, 420953))
+INFO:logger:(3, 91, datetime.datetime(2024, 1, 17, 19, 25, 28, 119372), datetime.datetime(2024, 1, 17, 19, 26, 28, 119389))
+INFO:logger:(4, 92, datetime.datetime(2024, 1, 17, 19, 25, 30, 785237), datetime.datetime(2024, 1, 17, 19, 26, 30, 785253))
+INFO:logger:(5, 93, datetime.datetime(2024, 1, 17, 19, 25, 33, 641905), datetime.datetime(2024, 1, 17, 19, 26, 33, 641919))
+INFO:logger:(6, 94, datetime.datetime(2024, 1, 17, 19, 25, 36, 416323), datetime.datetime(2024, 1, 17, 19, 26, 36, 416334))
+INFO:logger:(7, 95, datetime.datetime(2024, 1, 17, 19, 25, 39, 353986), datetime.datetime(2024, 1, 17, 19, 26, 39, 354001))
+INFO:logger:(8, 96, datetime.datetime(2024, 1, 17, 19, 25, 42, 145424), datetime.datetime(2024, 1, 17, 19, 26, 42, 145437))
+INFO:logger:(9, 97, datetime.datetime(2024, 1, 17, 19, 25, 45, 134287), datetime.datetime(2024, 1, 17, 19, 26, 45, 134305))
+INFO:logger:(10, 98, datetime.datetime(2024, 1, 17, 19, 25, 47, 788926), datetime.datetime(2024, 1, 17, 19, 26, 47, 788942))
+INFO:logger:(11, 99, datetime.datetime(2024, 1, 17, 19, 25, 51, 691735), datetime.datetime(2024, 1, 17, 19, 26, 51, 691762))
+INFO:logger:(12, 100, datetime.datetime(2024, 1, 17, 19, 25, 54, 427575), datetime.datetime(2024, 1, 17, 19, 26, 54, 427590))
+INFO:logger:(13, 101, datetime.datetime(2024, 1, 17, 19, 25, 57, 864798), datetime.datetime(2024, 1, 17, 19, 26, 57, 864809))
+INFO:logger:(89, <memory at 0x7faa70ed9d00>)
+INFO:logger:(90, <memory at 0x7faa70ed9a00>)
+INFO:logger:(91, <memory at 0x7faa70ed9dc0>)
+INFO:logger:(92, <memory at 0x7faa70ed9e80>)
+INFO:logger:(93, <memory at 0x7faa70ed9f40>)
+INFO:logger:(94, <memory at 0x7faa70644880>)
+INFO:logger:(95, <memory at 0x7faa70644040>)
+INFO:logger:(96, <memory at 0x7faa70644100>)
+INFO:logger:(97, <memory at 0x7faa706441c0>)
+INFO:logger:(98, <memory at 0x7faa70644280>)
+INFO:logger:(99, <memory at 0x7faa70644340>)
+INFO:logger:(100, <memory at 0x7faa70644400>)
+INFO:logger:(101, <memory at 0x7faa706444c0>)
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:26:57] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 22
+INFO:logger:(1, <memory at 0x7f1afea327c0>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7f1afea32940>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7f1afea32b80>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7f1afea32c40>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7f1afea32d00>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7f1afea32dc0>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7f1afea32e80>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7f1afea32f40>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7f1afd142040>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7f1afd142100>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7f1afd1421c0>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7f1afd142280>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f1afd142340>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f1afd142400>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f1afd1424c0>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f1afd142580>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f1afd142640>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f1afd142700>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f1afd1427c0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f1afd142880>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f1afd142940>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f1afd142a00>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨ʾ᧦፦ᒞᒞۨᣢᔺ཰྾ᣢᔺྊ཰
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 102
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁౒஧კࡶྃ༤஺ሯྃୈ்ર
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 103
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾ᧌ᑐᣢࢼᑐᒄᣢᔺᒄᒸᣢᔺ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 104
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜ࡲᛩᄩሦาਾ዇ቔ೰௅ᘃ዇ሽኙ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 105
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣ࿫Ꮼ៭ࡦษཕ។ዀ༊៭ᑩᐅ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 106
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈै࢔ས୤ิᄺ،ิૂᄺາਠ૸ઌᄺ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 107
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜ତᇸ௅ᘃ዇ܙቫᘃ዇ሦቔሦᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 108
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷඞ௥ᐙ܎௥ௐᑘᇍᐙᄥ౸ಢ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 109
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ؀៨ᇨዀຸર᎘ገ඀ᛸ᎘඀໐ᛸ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 110
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐؄ሴజၔာƸླྀኬጤၔ௴ౄጤၔ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 111
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾၚ࿘ᦲဦᣢᔺ຺྾ᣢᔺྊ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 112
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ஈৼ࢔າຎଜᄺ،๪ຎᄺາ๘ମᄺາ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 113
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᣼ᐜ╓๒ṸН⛙⅝ᵧᘗᓟⒷ˥ᢇᘾ╓ᵧᖢ⊼⅝᣼ᛚ╓ῗử⚲⍿⛙ῗᶵ╺╓
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 114
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 14
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ܌֬ઇЊړŕࣻ૵३ࢮڿਜ਼Ñ੦ࢍૉࡋؚৌ३ઇن३ઇࣻܗ૟૵ࣻذ܁ૉ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 115
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 15
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᡘ᎘⃎ሜἆૼᵤ◚₂ᖆẺᔺࠪ≰ᲦᝎᲦᔔṈ◚ᰎᶊṈ⑞ἆ▴᧺ጦ⑞ᑼ᡾ᝎ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 116
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 102, datetime.datetime(2024, 1, 17, 19, 26, 23, 906429), datetime.datetime(2024, 1, 17, 19, 27, 23, 906458))
+INFO:logger:(2, 103, datetime.datetime(2024, 1, 17, 19, 26, 26, 609947), datetime.datetime(2024, 1, 17, 19, 27, 26, 609968))
+INFO:logger:(3, 104, datetime.datetime(2024, 1, 17, 19, 26, 29, 160454), datetime.datetime(2024, 1, 17, 19, 27, 29, 160466))
+INFO:logger:(4, 105, datetime.datetime(2024, 1, 17, 19, 26, 31, 887765), datetime.datetime(2024, 1, 17, 19, 27, 31, 887784))
+INFO:logger:(5, 106, datetime.datetime(2024, 1, 17, 19, 26, 34, 524185), datetime.datetime(2024, 1, 17, 19, 27, 34, 524200))
+INFO:logger:(6, 107, datetime.datetime(2024, 1, 17, 19, 26, 36, 990022), datetime.datetime(2024, 1, 17, 19, 27, 36, 990041))
+INFO:logger:(7, 108, datetime.datetime(2024, 1, 17, 19, 26, 39, 678099), datetime.datetime(2024, 1, 17, 19, 27, 39, 678115))
+INFO:logger:(8, 109, datetime.datetime(2024, 1, 17, 19, 26, 42, 313849), datetime.datetime(2024, 1, 17, 19, 27, 42, 313862))
+INFO:logger:(9, 110, datetime.datetime(2024, 1, 17, 19, 26, 44, 811780), datetime.datetime(2024, 1, 17, 19, 27, 44, 811797))
+INFO:logger:(10, 111, datetime.datetime(2024, 1, 17, 19, 26, 47, 472331), datetime.datetime(2024, 1, 17, 19, 27, 47, 472355))
+INFO:logger:(11, 112, datetime.datetime(2024, 1, 17, 19, 26, 50, 278779), datetime.datetime(2024, 1, 17, 19, 27, 50, 278799))
+INFO:logger:(12, 113, datetime.datetime(2024, 1, 17, 19, 26, 52, 747939), datetime.datetime(2024, 1, 17, 19, 27, 52, 747954))
+INFO:logger:(13, 114, datetime.datetime(2024, 1, 17, 19, 26, 55, 761169), datetime.datetime(2024, 1, 17, 19, 27, 55, 761182))
+INFO:logger:(14, 115, datetime.datetime(2024, 1, 17, 19, 27, 0, 455694), datetime.datetime(2024, 1, 17, 19, 28, 0, 455712))
+INFO:logger:(15, 116, datetime.datetime(2024, 1, 17, 19, 27, 3, 983794), datetime.datetime(2024, 1, 17, 19, 28, 3, 983812))
+INFO:logger:(102, <memory at 0x7f1afea32dc0>)
+INFO:logger:(103, <memory at 0x7f1afea32ac0>)
+INFO:logger:(104, <memory at 0x7f1afea32e80>)
+INFO:logger:(105, <memory at 0x7f1afea32f40>)
+INFO:logger:(106, <memory at 0x7f1afd142a00>)
+INFO:logger:(107, <memory at 0x7f1afd142040>)
+INFO:logger:(108, <memory at 0x7f1afd142100>)
+INFO:logger:(109, <memory at 0x7f1afd1421c0>)
+INFO:logger:(110, <memory at 0x7f1afd142280>)
+INFO:logger:(111, <memory at 0x7f1afd142340>)
+INFO:logger:(112, <memory at 0x7f1afd142400>)
+INFO:logger:(113, <memory at 0x7f1afd1424c0>)
+INFO:logger:(114, <memory at 0x7f1afd142580>)
+INFO:logger:(115, <memory at 0x7f1afd142640>)
+INFO:logger:(116, <memory at 0x7f1afd142700>)
+INFO:logger:(17, <memory at 0x7f1afd1427c0>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f1afd142880>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f1afd142940>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f1afd143640>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f1afd143700>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f1afd1437c0>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, None, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, None, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, None, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, None, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, None, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:28:04] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 23
+INFO:logger:(1, <memory at 0x7fe7b5173940>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7fe7b5173b80>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7fe7b5173c40>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7fe7b5173d00>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7fe7b5173dc0>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7fe7b5173e80>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7fe7b5173f40>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7fe7b4083040>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7fe7b4083100>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7fe7b40831c0>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7fe7b4083280>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7fe7b4083340>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7fe7b4083400>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7fe7b40834c0>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7fe7b4083580>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7fe7b4083640>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7fe7b4083700>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7fe7b40837c0>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7fe7b4083880>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7fe7b4083940>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7fe7b4083a00>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7fe7b4083ac0>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(23, <memory at 0x7fe7b4083b80>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ቕஔঀࡶྃ༑༤ሯྃર໘ૃ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 117
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธଖᗪၪᅜൾࡖᅜᔎᇶᆞഐᔎᇶഐ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 118
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋ၧ਩੾ۨ၅෡ডൻ၅෡ড੭
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 119
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷᐮ௥ှग़ᄥ௥௥ᇍᐙᄥ೶჻
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 120
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷᓖ჻ᐙ܎჻౸௺ᐙᄥႧೡန
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 121
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ܌֬үַک࣏ࣻĴઇࣻࣄࢹ૪ઇࣻۊ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 122
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄࠚ຋૓ডলט၅෡਩ඌ၅෡ਘ਺
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 123
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ǠᏬ໬࿜ౘࣨၔୀ௴ྌጤၔ࿈௠
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 124
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᛩූᘃ޺ᇸූᙶᘃ዇ቫሽᘃ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 125
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈै6ᇮ൮๪๪ᄺາ๘ຎᄺາૂମ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 126
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾნᒄᣢࢼຠ຺ᣢᔺᔆᑐ᝶ᣢ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 127
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ငෞK៭ᑩ༼໘ଢᑩ໱༣៭ᑩᎈ໘៭
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 128
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᦠᒠὨව♈൰ᠸἘ⟘₨Ᾰ᠐࢘⑀Ἐ Ḩᘰ⇀⊈៨∸ᚨ ♈ᶰ᪸ᜠ♈ᖐ᥸ 
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 129
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 14
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ธ୘౶੼ᇶڞᄚ଀൨ᔎᇶᇊÆᆈዒᄰ႖ఴ଀ᗪှႀᆞ௜೤഼༶႖ᅲ໴ၪᄰ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 130
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 15
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᦠᒠ♈ະᾐА⟘∸᠐ᠸ♈ⅈɘᤨ⟘₨Ḩᘰ⎠∸᧰ម♈₨ ☠ᝈ∸ Ṹᠸ₨
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 131
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 16
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᜐነ≴ௐ≴ఘ᯼ᯘ⃄Ẅ≴ᷴನ᝘⏜ᵤᬤᏸ‐ᵤᖄỌ᳔ᲰῬᦘᓴỌᕠᮐᗌᵤ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 132
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 17
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᔤᄄᾕఞᨊ˷Ⴁ⃟᰻ᨫነἑɳᾶᤂᾕᣡ቎ᵤ᰻ᕦᏚᇫᾕ᫱ᔤỰ⃟᫱ጔᕦᾕ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 133
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 18
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᫨ᖨ⠲ཬ⃐౸⧖⏮₦᥮♤➊̞➊₦⠲ᾪᝌ╨⏮᫨ᾪ⠲≊↢⠈ᚤ⧖≊᠞᪾⠲
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 134
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 117, datetime.datetime(2024, 1, 17, 19, 28, 27, 991962), datetime.datetime(2024, 1, 17, 19, 29, 27, 991978))
+INFO:logger:(2, 118, datetime.datetime(2024, 1, 17, 19, 28, 30, 388077), datetime.datetime(2024, 1, 17, 19, 29, 30, 388092))
+INFO:logger:(3, 119, datetime.datetime(2024, 1, 17, 19, 28, 32, 903926), datetime.datetime(2024, 1, 17, 19, 29, 32, 903945))
+INFO:logger:(4, 120, datetime.datetime(2024, 1, 17, 19, 28, 35, 604344), datetime.datetime(2024, 1, 17, 19, 29, 35, 604359))
+INFO:logger:(5, 121, datetime.datetime(2024, 1, 17, 19, 28, 38, 288013), datetime.datetime(2024, 1, 17, 19, 29, 38, 288033))
+INFO:logger:(6, 122, datetime.datetime(2024, 1, 17, 19, 28, 40, 854114), datetime.datetime(2024, 1, 17, 19, 29, 40, 854124))
+INFO:logger:(7, 123, datetime.datetime(2024, 1, 17, 19, 28, 43, 385784), datetime.datetime(2024, 1, 17, 19, 29, 43, 385800))
+INFO:logger:(8, 124, datetime.datetime(2024, 1, 17, 19, 28, 46, 37366), datetime.datetime(2024, 1, 17, 19, 29, 46, 37384))
+INFO:logger:(9, 125, datetime.datetime(2024, 1, 17, 19, 28, 48, 650752), datetime.datetime(2024, 1, 17, 19, 29, 48, 650773))
+INFO:logger:(10, 126, datetime.datetime(2024, 1, 17, 19, 28, 51, 715898), datetime.datetime(2024, 1, 17, 19, 29, 51, 715920))
+INFO:logger:(11, 127, datetime.datetime(2024, 1, 17, 19, 28, 54, 569901), datetime.datetime(2024, 1, 17, 19, 29, 54, 569918))
+INFO:logger:(12, 128, datetime.datetime(2024, 1, 17, 19, 28, 57, 298205), datetime.datetime(2024, 1, 17, 19, 29, 57, 298227))
+INFO:logger:(13, 129, datetime.datetime(2024, 1, 17, 19, 29, 0, 336615), datetime.datetime(2024, 1, 17, 19, 30, 0, 336631))
+INFO:logger:(14, 130, datetime.datetime(2024, 1, 17, 19, 29, 3, 572714), datetime.datetime(2024, 1, 17, 19, 30, 3, 572737))
+INFO:logger:(15, 131, datetime.datetime(2024, 1, 17, 19, 29, 6, 463976), datetime.datetime(2024, 1, 17, 19, 30, 6, 463990))
+INFO:logger:(16, 132, datetime.datetime(2024, 1, 17, 19, 29, 9, 720881), datetime.datetime(2024, 1, 17, 19, 30, 9, 720895))
+INFO:logger:(17, 133, datetime.datetime(2024, 1, 17, 19, 29, 12, 723856), datetime.datetime(2024, 1, 17, 19, 30, 12, 723872))
+INFO:logger:(18, 134, datetime.datetime(2024, 1, 17, 19, 29, 15, 684082), datetime.datetime(2024, 1, 17, 19, 30, 15, 684092))
+INFO:logger:(117, <memory at 0x7fe7b5173ac0>)
+INFO:logger:(118, <memory at 0x7fe7b5173dc0>)
+INFO:logger:(119, <memory at 0x7fe7b5173e80>)
+INFO:logger:(120, <memory at 0x7fe7b5173f40>)
+INFO:logger:(121, <memory at 0x7fe7b4083b80>)
+INFO:logger:(122, <memory at 0x7fe7b4083040>)
+INFO:logger:(123, <memory at 0x7fe7b4083100>)
+INFO:logger:(124, <memory at 0x7fe7b40831c0>)
+INFO:logger:(125, <memory at 0x7fe7b4083280>)
+INFO:logger:(126, <memory at 0x7fe7b4083340>)
+INFO:logger:(127, <memory at 0x7fe7b4083400>)
+INFO:logger:(128, <memory at 0x7fe7b40834c0>)
+INFO:logger:(129, <memory at 0x7fe7b4083580>)
+INFO:logger:(130, <memory at 0x7fe7b4083640>)
+INFO:logger:(131, <memory at 0x7fe7b4083700>)
+INFO:logger:(132, <memory at 0x7fe7b40837c0>)
+INFO:logger:(133, <memory at 0x7fe7b4083880>)
+INFO:logger:(134, <memory at 0x7fe7b4083940>)
+INFO:logger:(19, <memory at 0x7fe7b4083ac0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7fe7b4084a00>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7fe7b4084ac0>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7fe7b4084b80>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(23, <memory at 0x7fe7b4084c40>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, None, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, None, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, None, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, None, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, None, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, None, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, None, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:30:15] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 24
+INFO:logger:(1, <memory at 0x7fe7b5173dc0>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7fe7b5173e80>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7fe7b5173f40>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7fe7ac0f1040>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7fe7ac0f1100>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7fe7ac0f11c0>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7fe7ac0f1280>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7fe7ac0f1340>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7fe7ac0f1400>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7fe7ac0f14c0>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7fe7ac0f1580>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7fe7ac0f1640>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7fe7ac0f1700>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7fe7ac0f17c0>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7fe7ac0f1880>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7fe7ac0f1940>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7fe7ac0f1a00>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7fe7ac0f1ac0>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7fe7ac0f1b80>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7fe7ac0f1c40>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7fe7ac0f1d00>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7fe7ac0f1dc0>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(23, <memory at 0x7fe7ac0f1e80>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(24, <memory at 0x7fe7ac0f1f40>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ୰ᒈᜐ๘ᛸࠐጠ፨ደᛸ᎘เຸᛸ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 135
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷൟ೶ᐙ܎Ⴜ಍ၽᐙᄥႧഋ஑
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 136
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌ۔ይอૃ༤ࡶྃ໘ૃરሯྃ༑஁
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 137
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ୰ᒈ༘፨ᛸࠐ๘ຠᛸ᎘፨ጸᙨᛸ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 138
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ࣨዀ੐፠ጤڸୀరጤၔୀ௴ጤၔ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 139
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨౤ᘾ᧦຺ᣢࢼᔆྊᣢᔺᒄ྾ᣢᔺ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 140
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೤ୀጤڸୀరጐጤၔ௠୔ਨ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 141
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜፌజጤڸ࿰రጤᅄጤၔ࿰ౄ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 142
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈै࢔ས୶ฐᄺࠄิ࿀঴ຎᄺາิଜ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 143
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᘚ඿ᘃ޺ഇ೰ᘃ዇ቫඨᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 144
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᘚഇᘃ޺ቔഇጌᘃ዇ሽ೰ᗬ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 145
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ငෞ௪ᑩฐ༣៭ࡦᏬ໱᝗ᔱᡪ༣៭ᑩ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 146
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ኔ໴ᯁદၭ˕᳣ᣏᚋᝳᘗ᭍ȧᯞᚋᯁᗝဖ᧔ᣏᲩჄᯁឭ᜹ሠቷ᳣ឭჄቷᯁ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 147
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 14
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ஈैᄺڜຎưᇮསඤૂᄺ໺´ᄨᇮາඒৼဈས୶੺ᄺາฐᅌ੺སฐઌ૦າ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 148
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 15
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᔤᄄᾕఞᧈ̘⃟᰻ᣀᨊ᪯ᴢܗᷨᤂᑿᣡ቎ᵤ᰻ᔤጵᾕ᫱ᨊᕅᚏṬᾕᇊᕦᑿ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 149
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 16
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᜐነ≴സᑤ͠ቈ⏜Ọ᲌ᖄ⇤ʬោᓐ≴ᬤᏸ‐Ọ⎔ᓴጠ≴ᵤᜐ⌄⏜ᵤ᲌⇀≴
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 150
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 17
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᜐነᕠΨ≴ఘᒈᓴᷴ≴ᵤᗰ஬ᲰỌᑤᬤᏸፄᙜᖄỌᕠᙜ὜ᖨᣤᒈᑤᡸ᫜ᑤ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 151
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 18
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ૤ࣄ၅ؾඝŶჯ຋ೀ਺၅ลªઠࣕ၅೑८༤຋઱ੋ၅෡൪၅৥຋ൈೢ໱၅
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 152
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 135, datetime.datetime(2024, 1, 17, 19, 29, 25, 707780), datetime.datetime(2024, 1, 17, 19, 30, 25, 707794))
+INFO:logger:(2, 136, datetime.datetime(2024, 1, 17, 19, 29, 28, 820828), datetime.datetime(2024, 1, 17, 19, 30, 28, 820840))
+INFO:logger:(3, 137, datetime.datetime(2024, 1, 17, 19, 29, 31, 911499), datetime.datetime(2024, 1, 17, 19, 30, 31, 911512))
+INFO:logger:(4, 138, datetime.datetime(2024, 1, 17, 19, 29, 34, 553497), datetime.datetime(2024, 1, 17, 19, 30, 34, 553515))
+INFO:logger:(5, 139, datetime.datetime(2024, 1, 17, 19, 29, 37, 474899), datetime.datetime(2024, 1, 17, 19, 30, 37, 474916))
+INFO:logger:(6, 140, datetime.datetime(2024, 1, 17, 19, 29, 40, 493696), datetime.datetime(2024, 1, 17, 19, 30, 40, 493714))
+INFO:logger:(7, 141, datetime.datetime(2024, 1, 17, 19, 29, 43, 241412), datetime.datetime(2024, 1, 17, 19, 30, 43, 241427))
+INFO:logger:(8, 142, datetime.datetime(2024, 1, 17, 19, 29, 45, 804629), datetime.datetime(2024, 1, 17, 19, 30, 45, 804643))
+INFO:logger:(9, 143, datetime.datetime(2024, 1, 17, 19, 29, 48, 709084), datetime.datetime(2024, 1, 17, 19, 30, 48, 709101))
+INFO:logger:(10, 144, datetime.datetime(2024, 1, 17, 19, 29, 51, 593815), datetime.datetime(2024, 1, 17, 19, 30, 51, 593830))
+INFO:logger:(11, 145, datetime.datetime(2024, 1, 17, 19, 29, 54, 302747), datetime.datetime(2024, 1, 17, 19, 30, 54, 302760))
+INFO:logger:(12, 146, datetime.datetime(2024, 1, 17, 19, 29, 56, 900289), datetime.datetime(2024, 1, 17, 19, 30, 56, 900303))
+INFO:logger:(13, 147, datetime.datetime(2024, 1, 17, 19, 29, 59, 854287), datetime.datetime(2024, 1, 17, 19, 30, 59, 854297))
+INFO:logger:(14, 148, datetime.datetime(2024, 1, 17, 19, 30, 3, 561037), datetime.datetime(2024, 1, 17, 19, 31, 3, 561060))
+INFO:logger:(15, 149, datetime.datetime(2024, 1, 17, 19, 30, 6, 966722), datetime.datetime(2024, 1, 17, 19, 31, 6, 966741))
+INFO:logger:(16, 150, datetime.datetime(2024, 1, 17, 19, 30, 10, 133805), datetime.datetime(2024, 1, 17, 19, 31, 10, 133825))
+INFO:logger:(17, 151, datetime.datetime(2024, 1, 17, 19, 30, 13, 802081), datetime.datetime(2024, 1, 17, 19, 31, 13, 802097))
+INFO:logger:(18, 152, datetime.datetime(2024, 1, 17, 19, 30, 16, 716252), datetime.datetime(2024, 1, 17, 19, 31, 16, 716271))
+INFO:logger:(135, <memory at 0x7fe7b5173b80>)
+INFO:logger:(136, <memory at 0x7fe7b5173ac0>)
+INFO:logger:(137, <memory at 0x7fe7b51734c0>)
+INFO:logger:(138, <memory at 0x7fe7b5173dc0>)
+INFO:logger:(139, <memory at 0x7fe7b5173e80>)
+INFO:logger:(140, <memory at 0x7fe7b5173f40>)
+INFO:logger:(141, <memory at 0x7fe7ac0fadc0>)
+INFO:logger:(142, <memory at 0x7fe7ac0fae80>)
+INFO:logger:(143, <memory at 0x7fe7ac0faf40>)
+INFO:logger:(144, <memory at 0x7fe7ef280040>)
+INFO:logger:(145, <memory at 0x7fe7ef280100>)
+INFO:logger:(146, <memory at 0x7fe7ef2801c0>)
+INFO:logger:(147, <memory at 0x7fe7ef280280>)
+INFO:logger:(148, <memory at 0x7fe7ef280340>)
+INFO:logger:(149, <memory at 0x7fe7ef280400>)
+INFO:logger:(150, <memory at 0x7fe7ef2804c0>)
+INFO:logger:(151, <memory at 0x7fe7ef280580>)
+INFO:logger:(152, <memory at 0x7fe7ef280640>)
+INFO:logger:(19, <memory at 0x7fe7ef2807c0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7fe7ef280880>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7fe7ef280940>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7fe7ef280a00>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(23, <memory at 0x7fe7ef280ac0>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(24, <memory at 0x7fe7ef280b80>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, None, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, None, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, None, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, None, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, None, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, None, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, None, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:31:16] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 25
+INFO:logger:(1, <memory at 0x7fe7b5173ac0>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7fe7b51734c0>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7fe7b5173dc0>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7fe7b5173e80>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7fe7b5173f40>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7fe7ac0fa040>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7fe7ac0fa100>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7fe7ac0fa1c0>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7fe7ac0fa280>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7fe7ac0fa340>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7fe7ac0fa400>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7fe7ac0fa4c0>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7fe7ac0fa580>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7fe7ac0fa640>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7fe7ac0fa700>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7fe7ac0fa7c0>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7fe7ac0fa880>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7fe7ac0fa940>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7fe7ac0faa00>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7fe7ac0faac0>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7fe7ac0fab80>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7fe7ac0fac40>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7fe7ac0fad00>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7fe7ac0fadc0>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(24, <memory at 0x7fe7ac0fae80>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธଖ੼ዒᗪഐᔎݤᄰᅲᔎᇶᆈᆞᔎᇶ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 153
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ׄҤ΄࠱ռ࢝ݙĎ֗࢝ݙ՘Ԑܑ߻࢝
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 154
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ஈैߎᇮ൮ਲๆ޼ग़६ේᄺາิ૸ᄺ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 155
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌԲይอཝરࡶ༷ྃરሯ༷ྃ໘ሯ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 156
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ዚ்ሯ٢༷༷ᆪሯྃཝ஧ও
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 157
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷᐮௐᐙ܎Ⴜಷᐙᄥ჻ೌቋᐙ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 158
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ԠР ѐӘڈӈðߐӠިڈٸӠިڈ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 159
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠࡰ៨ᇨዀ඘ર᎘ጸเᔰఀዘᛸ᎘
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 160
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ૤ࣄŶჯಯ൪ඝݰ၅၅ྊ၅෡ඝ඿၅
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 161
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒไඪᔎݤᆈᅲᔎᇶ౶ᆈᔎᔎ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 162
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐޼Ꮼ໬ୀྠ޼ጤၔာౄጤၔ௴ఈ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 163
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 12
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1 2 3 4
+
+INFO:logger:Encrypted Text: ೐ଘ࠴ጤၔౄ௴ጤၔ௠࿰ጤၔငୀ
+INFO:logger:Decrypted Text: 1 2 3 4         
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 164
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 13
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᗈᆈ₊ঐ₊୬ᧄᨪ⇞ᯂ᪐ᒖ܊ᬘᴖ᫶ᦢዜṈᬺᑒᴖ᪐᭾₊᤼ᙐᏊ⃎᜜ᥞ᫶
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 165
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 14
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᫨ᔪ⠲ཬ⇶త⧖⏮᥮᧬⧖➊̞⡜ᡲ⒖ᾪᛎ╨⏮᪾₦⠲≊៊➊ᨖ⧖≊ᡈ➊⒖
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 166
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 15
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: Ꮬ࿼᫢ໆ᥏ࢸላ᪅Ṇᶫ᥏ᡗୃ᯹ᅑᆏ᝟ᄲᤑỡᛣ៛ፁ᥏ᴐኦᕯ᠙ፁရᱵᆏ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 167
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 16
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᔤᄄ᫐ྺ᫱ঊ኱ᶦ⃟᫱ᩌᩌܗᷨᏚᏻᣡ቎ᣡ⃟ᡝᦧᏻṬᾕ᡾ᘬᤂᾕᇊ₾ᏻ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 168
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 17
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᣼ᐜ╓๒ửН⛙⅝ᘾἔ╓⁳ĸ┅◈⅝ᵧᖢ⊼⅝ᥱᛚ╓ῗᜨᣕᚳ⅝Ệᘗោ⅝
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 169
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 18
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ᜐነ≴സᱨ̘⍌⏜Ọ᲌ᴜℰ޼₠ᖨᗰᬤᏸ‐Ọ᝘ᗌ⇤≴ᵤᜐᢜῈ≴፨⎸ᗰ
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 170
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 19
+INFO:logger:Language: Detected Language: pt
+INFO:logger:Text from whisper: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+INFO:logger:Encrypted Text: ૤ࣄ၅ؾ඿ӻჯ຋লൈ၅ลª૵პ၅೑८༤຋૓ദ၅෡ਘଗ৥຋ൈഷ਺၅
+INFO:logger:Decrypted Text: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.  
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 171
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 153, datetime.datetime(2024, 1, 17, 19, 31, 28, 851540), datetime.datetime(2024, 1, 17, 19, 32, 28, 851555))
+INFO:logger:(2, 154, datetime.datetime(2024, 1, 17, 19, 31, 31, 569446), datetime.datetime(2024, 1, 17, 19, 32, 31, 569455))
+INFO:logger:(3, 155, datetime.datetime(2024, 1, 17, 19, 31, 34, 109320), datetime.datetime(2024, 1, 17, 19, 32, 34, 109334))
+INFO:logger:(4, 156, datetime.datetime(2024, 1, 17, 19, 31, 36, 905875), datetime.datetime(2024, 1, 17, 19, 32, 36, 905892))
+INFO:logger:(5, 157, datetime.datetime(2024, 1, 17, 19, 31, 39, 704944), datetime.datetime(2024, 1, 17, 19, 32, 39, 704959))
+INFO:logger:(6, 158, datetime.datetime(2024, 1, 17, 19, 31, 42, 286334), datetime.datetime(2024, 1, 17, 19, 32, 42, 286351))
+INFO:logger:(7, 159, datetime.datetime(2024, 1, 17, 19, 31, 45, 20576), datetime.datetime(2024, 1, 17, 19, 32, 45, 20590))
+INFO:logger:(8, 160, datetime.datetime(2024, 1, 17, 19, 31, 47, 652633), datetime.datetime(2024, 1, 17, 19, 32, 47, 652647))
+INFO:logger:(9, 161, datetime.datetime(2024, 1, 17, 19, 31, 50, 332912), datetime.datetime(2024, 1, 17, 19, 32, 50, 332922))
+INFO:logger:(10, 162, datetime.datetime(2024, 1, 17, 19, 31, 53, 281990), datetime.datetime(2024, 1, 17, 19, 32, 53, 282005))
+INFO:logger:(11, 163, datetime.datetime(2024, 1, 17, 19, 31, 55, 974041), datetime.datetime(2024, 1, 17, 19, 32, 55, 974055))
+INFO:logger:(12, 164, datetime.datetime(2024, 1, 17, 19, 31, 58, 509744), datetime.datetime(2024, 1, 17, 19, 32, 58, 509756))
+INFO:logger:(13, 165, datetime.datetime(2024, 1, 17, 19, 32, 1, 680006), datetime.datetime(2024, 1, 17, 19, 33, 1, 680023))
+INFO:logger:(14, 166, datetime.datetime(2024, 1, 17, 19, 32, 4, 569356), datetime.datetime(2024, 1, 17, 19, 33, 4, 569372))
+INFO:logger:(15, 167, datetime.datetime(2024, 1, 17, 19, 32, 7, 586752), datetime.datetime(2024, 1, 17, 19, 33, 7, 586764))
+INFO:logger:(16, 168, datetime.datetime(2024, 1, 17, 19, 32, 10, 571019), datetime.datetime(2024, 1, 17, 19, 33, 10, 571038))
+INFO:logger:(17, 169, datetime.datetime(2024, 1, 17, 19, 32, 13, 641279), datetime.datetime(2024, 1, 17, 19, 33, 13, 641293))
+INFO:logger:(18, 170, datetime.datetime(2024, 1, 17, 19, 32, 16, 446421), datetime.datetime(2024, 1, 17, 19, 33, 16, 446434))
+INFO:logger:(19, 171, datetime.datetime(2024, 1, 17, 19, 32, 19, 638151), datetime.datetime(2024, 1, 17, 19, 33, 19, 638170))
+INFO:logger:(153, <memory at 0x7fe7b51734c0>)
+INFO:logger:(154, <memory at 0x7fe7b5173ac0>)
+INFO:logger:(155, <memory at 0x7fe7b5173dc0>)
+INFO:logger:(156, <memory at 0x7fe7b5173e80>)
+INFO:logger:(157, <memory at 0x7fe7b5173f40>)
+INFO:logger:(158, <memory at 0x7fe7ac0fae80>)
+INFO:logger:(159, <memory at 0x7fe7ac0fa040>)
+INFO:logger:(160, <memory at 0x7fe7ac0fa100>)
+INFO:logger:(161, <memory at 0x7fe7ac0fa1c0>)
+INFO:logger:(162, <memory at 0x7fe7ac0fa280>)
+INFO:logger:(163, <memory at 0x7fe7ac0fa340>)
+INFO:logger:(164, <memory at 0x7fe7ac0fa400>)
+INFO:logger:(165, <memory at 0x7fe7ac0fa4c0>)
+INFO:logger:(166, <memory at 0x7fe7ac0fa580>)
+INFO:logger:(167, <memory at 0x7fe7ac0fa640>)
+INFO:logger:(168, <memory at 0x7fe7ac0fa700>)
+INFO:logger:(169, <memory at 0x7fe7ac0fa7c0>)
+INFO:logger:(170, <memory at 0x7fe7ac0fa880>)
+INFO:logger:(171, <memory at 0x7fe7ac0fa940>)
+INFO:logger:(21, <memory at 0x7fe7ac0faa00>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7fe7ac0faac0>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7fe7ac0fab80>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, None, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, None, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, None, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, None, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(23, <memory at 0x7fe7ac0fac40>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(16, None, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, None, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, None, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, None, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, None, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(24, <memory at 0x7fe7ac0fad00>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:33:19] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 26
+INFO:logger:(1, <memory at 0x7f9d81af27c0>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7f9d81af2940>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7f9d81af2b80>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7f9d81af2c40>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7f9d81af2d00>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7f9d81af2dc0>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7f9d81af2e80>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7f9d81af2f40>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7f9d80202040>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7f9d80202100>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7f9d802021c0>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7f9d80202280>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f9d80202340>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f9d80202400>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f9d802024c0>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f9d80202580>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f9d80202640>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f9d80202700>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f9d802027c0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f9d80202880>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f9d80202940>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f9d80202a00>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7f9d80202ac0>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7f9d80202b80>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(26, <memory at 0x7f9d80202c40>, datetime.datetime(2024, 1, 17, 19, 35, 45, 557731))
+INFO:logger:(24, <memory at 0x7f9d80202d00>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠܠሰຈ᎘ዀݨᛸ᎘เ፨ᛸ᎘፨඀
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 172
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: င೤௪ᕣྐྵ྇຿ଢᑩ໱໱෷៭ᑩᎺᏓ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 173
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: బৌऎ၁ይ໾ၺࡶྃཝ்ሯྃ༑ஔኴ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 174
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴કਂᇷ൴ბᐙ܎Ⴇಢೌ஦ᐙᄥ಍ೡ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 175
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: Ⴈ൨ɖ᧦፦ᒄ຺ಲᣢᔺᑐᔆᣢᔺᓒᒞ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 176
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷඞಢ஑ں౸ዞᐙᄥ௥ಢዞᐙ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 177
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ްذָ੄௨ॠ૬୼ৌیঐڐজ୼ৌ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 178
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒᗪൾᔎݤ౶൨ᔎᇶᇊඔᔎᇶ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 179
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᛒቔᘃ޺ඨූᘃ዇඿้ᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 180
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ୘៨ᇨደ፨ưገೀᔘሀᔀᛸ᎘ዀ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 181
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐੐ঈᄜ೸ఈਔࣨၔୀ࿈ጤၔ࿜ငጐ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 182
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 172, datetime.datetime(2024, 1, 16, 19, 35, 48, 582287), datetime.datetime(2024, 1, 17, 19, 35, 48, 582309))
+INFO:logger:(2, 173, datetime.datetime(2024, 1, 16, 19, 35, 51, 167641), datetime.datetime(2024, 1, 17, 19, 35, 51, 167656))
+INFO:logger:(3, 174, datetime.datetime(2024, 1, 16, 19, 35, 53, 670302), datetime.datetime(2024, 1, 17, 19, 35, 53, 670318))
+INFO:logger:(4, 175, datetime.datetime(2024, 1, 16, 19, 35, 56, 791105), datetime.datetime(2024, 1, 17, 19, 35, 56, 791119))
+INFO:logger:(5, 176, datetime.datetime(2024, 1, 16, 19, 35, 59, 465504), datetime.datetime(2024, 1, 17, 19, 35, 59, 465517))
+INFO:logger:(6, 177, datetime.datetime(2024, 1, 16, 19, 36, 2, 247715), datetime.datetime(2024, 1, 17, 19, 36, 2, 247730))
+INFO:logger:(7, 178, datetime.datetime(2024, 1, 16, 19, 36, 4, 903574), datetime.datetime(2024, 1, 17, 19, 36, 4, 903589))
+INFO:logger:(8, 179, datetime.datetime(2024, 1, 16, 19, 36, 7, 687090), datetime.datetime(2024, 1, 17, 19, 36, 7, 687108))
+INFO:logger:(9, 180, datetime.datetime(2024, 1, 16, 19, 36, 10, 309497), datetime.datetime(2024, 1, 17, 19, 36, 10, 309510))
+INFO:logger:(10, 181, datetime.datetime(2024, 1, 16, 19, 36, 13, 539892), datetime.datetime(2024, 1, 17, 19, 36, 13, 539909))
+INFO:logger:(11, 182, datetime.datetime(2024, 1, 16, 19, 36, 16, 378918), datetime.datetime(2024, 1, 17, 19, 36, 16, 378944))
+INFO:logger:(172, <memory at 0x7f9d81af2e80>)
+INFO:logger:(173, <memory at 0x7f9d81af2dc0>)
+INFO:logger:(174, <memory at 0x7f9d81af2f40>)
+INFO:logger:(175, <memory at 0x7f9d80202d00>)
+INFO:logger:(176, <memory at 0x7f9d80202040>)
+INFO:logger:(177, <memory at 0x7f9d80202100>)
+INFO:logger:(178, <memory at 0x7f9d802021c0>)
+INFO:logger:(179, <memory at 0x7f9d80202280>)
+INFO:logger:(180, <memory at 0x7f9d80202340>)
+INFO:logger:(181, <memory at 0x7f9d80202400>)
+INFO:logger:(182, <memory at 0x7f9d802024c0>)
+INFO:logger:(12, <memory at 0x7f9d80202580>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f9d80202640>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f9d80202700>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f9d802027c0>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f9d80202880>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f9d80202940>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f9d80202a00>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f9d80202ac0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f9d80202b80>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f9d80202c40>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f9d80203640>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7f9d80203700>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7f9d802037c0>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(26, <memory at 0x7f9d80203880>, datetime.datetime(2024, 1, 17, 19, 35, 45, 557731))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(24, <memory at 0x7f9d80203940>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:36:16] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-510-203

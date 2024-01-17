@@ -125,7 +125,6 @@ def aesEncrypt(plain_text,key):
     # encrypting each sub string
     for sub_string in plain_text_split : 
         A0 = text2Unicode(sub_string)
-        print(A0)
         A1 = subBytes(A0)
         A2 = shiftRows(A1)
         A3 = mixCol(A2)
