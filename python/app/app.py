@@ -20,6 +20,63 @@ def home():
     return render_template("home.html")
 
 
+@app.route("/admin")
+def admin():
+    conn = None
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+
+        cur.execute("SELECT * FROM AudioTextAssociation")
+        audio_text_associations = cur.fetchall()
+
+        cur.execute("SELECT * FROM TextData")
+        texts = cur.fetchall()
+
+    except Exception as e:
+        logger.error(f"Error fetching data: {e}")
+        audio_text_associations = []
+        texts = []
+
+    finally:
+        if conn is not None:
+            cur.close()
+            conn.close()
+
+    return render_template("admin.html", audio_text_associations=audio_text_associations, texts=texts)
+
+
+@app.route("/rectify_audio/<int:audio_id>/<int:text_id>")
+def rectify_audio(audio_id, text_id):
+
+
+    return render_template("rectify.html", audio_id=audio_id, text_content="text")
+
+
+@app.route("/verify_audio/<int:audio_id>", methods=["POST"])
+def verify_audio(audio_id):
+    action = request.form.get("action")
+
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+
+        if action == "verify":
+            cur.execute("UPDATE AudioData SET AudioContent = NULL WHERE AudioID = %s", (audio_id,))
+            conn.commit()
+
+    except Exception as e:
+        logger.error(f"Error verifying audio: {e}")
+        conn.rollback()
+
+    finally:
+        if conn is not None:
+            cur.close()
+            conn.close()
+
+    return render_template("admin.html")
+
+
 # @app.route('/upload_audio', methods=['POST'])
 # def upload_audio():
 #     try:

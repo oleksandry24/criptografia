@@ -1,0 +1,47 @@
+<!-- admin.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+</head>
+<body>
+    <h1>Admin Page</h1>
+
+    <h2>Audio-Text Associations</h2>
+    {% if audio_text_associations %}
+        <table>
+            <!-- ... other table headers ... -->
+            {% for association in audio_text_associations %}
+                <tr>
+                    <td>{{ association.AudioID }}</td>
+                    <td><audio controls src="{{ url_for('static', filename='Audios/audio_' + association.AudioID + '.mpeg') }}"></audio></td>
+                    <td>{{ association.TextContent }}</td>
+                    <td>
+                        <a href="{{ url_for('rectify_audio', audio_id=association.AudioID, text_id=association.TextID) }}">Rectify</a>
+                        <form method="POST" action="{{ url_for('verify_audio', audio_id=association.AudioID) }}">
+                            <button type="submit" name="action" value="verify">Verify</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No audio-text associations found.</p>
+    {% endif %}
+
+    <h2>Texts in Database</h2>
+    {% if texts %}
+        <ul>
+            {% for text in texts %}
+                <li>{{ text.TextContent }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No texts found in the database.</p>
+    {% endif %}
+</body>
+</html>
