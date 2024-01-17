@@ -6,6 +6,7 @@ class WhisperProcessor:
         self.option = whisper.DecodingOptions(fp16=fp16)
 
     def audio_to_text(self, audio_content):
+        
         audio = whisper.load_audio(audio_content)
         audio = whisper.pad_or_trim(audio)
 

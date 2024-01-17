@@ -4,73 +4,118 @@ from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
 from crypto import DoubleShot
 from whisper_audio import WhisperProcessor
+import base64 
+import os
+import time
 
 app = Flask(__name__)
 scheduler = BackgroundScheduler()
-whisper = WhisperProcessor()
 scheduler.start()
 app.static_folder = './static'
+
+audios_directory = os.path.abspath('Audios')
 
 @app.route("/")
 def home():
     return render_template("home.html")
 
 
-@app.route('/upload_audio', methods=['POST'])
-def upload_audio():
-    try:
+# @app.route('/upload_audio', methods=['POST'])
+# def upload_audio():
+#     try:
+#         audio_blob = request.data
+#         with open('Audios/audio_received.ogg', 'wb') as f:
+#             f.write(audio_blob)
+#         return 'Áudio recebido com sucesso!'
+#     except KeyError:
+#         return 'Erro: Chave "audio" não encontrada nos dados da requisição.'
+
+
+
+@app.route("/upload_audio", methods = ["POST"])
+def upload():
+    error = ""
+    try: 
+        conn = get_db()
+        cur = conn.cursor()
+
+        logger.info("CONNECTION SUCCESSFULL TO DB")
+
         audio_blob = request.data
-        with open('Audios/audio_received.ogg', 'wb') as f:
-            f.write(audio_blob)
+        audio_content = base64.b64decode(audio_blob)
 
-        whisper = WhisperProcessor()
-        audio, l = whisper.audio_to_text("Audios/audio_received.ogg")
-        print(audio,l)
-        logger.info(audio)
-        return audio
-    except KeyError:
-        return 'Erro: Chave "audio" não encontrada nos dados da requisição.'
+        query = "INSERT INTO AudioData (AudioContent, UploadTime) VALUES (%s, %s) RETURNING AudioID"
+        values = (audio_content, datetime.utcnow())
+        cur.execute(query, values)
+        audio_id = cur.fetchone()[0]
 
+        conn.commit()
 
-
-# @app.route("/upload", methods = ["POST"])
-# def upload():
-#     error = ""
-#     try: 
-#         conn = get_db()
-#         cur = conn.cursor()
-
-#         audio_data = request.json['audio']
-#         audio_content = base64.b64decode(audio_data)
-
-#         query = "INSERT INTO AudioData (AudioContent, UploadTime) VALUES (%s, %s)"
-#         values = (audio_content, datetime.utcnow())
-#         cur.execute(query, values)
+        logger.info(f"New Insert. Audio ID: {audio_id}")
         
-#         conn.commit()
 
-#         output_message = "Your report has been successfully registered and will be transmitted to the authorities"
-        
-#     except (Exception, psycopg2.DatabaseError) as e:
-#         logger.error(f"SOME PROBLEMS ON CONNECT TO DATABASE: {e}")
-#         error = str(e)
-#         conn.rollback()
+        ## PROCESS AUDIO
 
-#     finally:
-#         if conn is not None:
-#             cur.close()
-#             conn.close()
+        query = "SELECT AudioID, AudioContent FROM AudioData WHERE UploadTime <= %s;"
+        cur.execute(query, (datetime.now() - timedelta(minutes=1),))
+        rows = cur.fetchall()
 
-#     if error == "":
-#         return render_template("home.html", output_message= output_message)
-#     else: 
-#         return render_template("home.html", error = error)
+        for row in rows:
+            audio_id, audio_content = row
+
+            audio_path = criar_arquivo_audio(audio_content)
+
+            # áudio para texto
+            whisper = WhisperProcessor()
+
+            text_content, language = whisper.audio_to_text(audio_path)
+            logger.info(f"\nAudio ID: {audio_id}")
+            logger.info(f"Language: {language}")
+            logger.info(f"Text from whisper: {text_content}\n")
+
+            # Excluir o arquivo de áudio após o processamento
+            excluir_arquivo_audio(audio_path)
+   
+            # algoritmo de encriptação
+
+            doubleShot = DoubleShot()
+            encrypted_text = doubleShot.processAndEncrypt(text_content)
+
+            # Ver nos logs o texto decifrado
+            logger.info(f'Encrypted Text: {encrypted_text}')
+            decrypted_text = doubleShot.processAndDecrypt(encrypted_text)
+            logger.info(f'Decrypted Text: {decrypted_text}\n')
+
+            # inserir o resultado
+            text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING TextID;"
+            cur.execute(text_query, (encrypted_text))
+            text_id = cur.fetchone()[0]
+
+            association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s);"
+            cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(hours=48), datetime.now()))
+
+        update_query = "UPDATE AudioData SET AudioContent = NULL WHERE UploadTime <= %s;"
+        cur.execute(update_query, (datetime.now() - timedelta(hours=48),))
 
 
-def process_audio():
+    except (Exception, psycopg2.DatabaseError, KeyError) as e:
+        logger.error(f"ERROR: {e}")
+        error = str(e)
+        conn.rollback()
+
+    finally:
+        if conn is not None:
+            cur.close()
+            conn.close()
+
+    if error == "":
+        return render_template("home.html")
+    else: 
+        return render_template("home.html", error = error)
+
+
+def process_audio(connection, cursor):
     try:
-        connection = get_db()
-        cursor = connection.cursor()
 
         query = "SELECT AudioID, AudioContent FROM AudioData WHERE UploadTime <= %s;"
         cursor.execute(query, (datetime.now() - timedelta(hours=48),))
@@ -80,7 +125,9 @@ def process_audio():
             audio_id, audio_content = row
 
             # áudio para texto
-            text_content, language = whisper(audio_content)
+            whisper = WhisperProcessor()
+
+            text_content, language = whisper.audio_to_text(audio_content)
             logger.info(f"\nAudio ID: {audio_id}")
             logger.info(f"Language: {language}")
             logger.info(f"Text from whisper: {text_content}\n")
@@ -96,14 +143,14 @@ def process_audio():
             logger.info(f'Decrypted Text: {decrypted_text}\n')
 
             # inserir o resultado
-            text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING text_id;"
+            text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING TextID;"
             cursor.execute(text_query, (encrypted_text))
             text_id = cursor.fetchone()[0]
 
             association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s);"
             cursor.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(hours=48), datetime.now()))
 
-        update_query = "UPDATE AudioData SET AudioContent = NULL WHEREUploadTime <= %s;"
+        update_query = "UPDATE AudioData SET AudioContent = NULL WHERE UploadTime <= %s;"
         cursor.execute(update_query, (datetime.now() - timedelta(hours=48),))
 
         connection.commit()
@@ -112,8 +159,25 @@ def process_audio():
     except Exception as e:
         print(f"Error processing audio: {e}")
 
+    finally:
+        if connection is not None:
+            cursor.close()
+            connection.close()
+
 # Agendando a tarefa para ser executada a cada 24 horas
 # scheduler.add_job(process_audio, trigger='interval', hours=24)
+
+
+def criar_arquivo_audio(audio_blob):
+    timestamp = str(int(time.time()))
+    audio_path = os.path.join(audios_directory, f'audio_{timestamp}.mpeg')
+    with open(audio_path, 'wb') as f:
+        f.write(audio_blob)
+
+    return audio_path
+
+def excluir_arquivo_audio(audio_path):
+    os.remove(audio_path)
 
 
 def get_db():
@@ -135,13 +199,8 @@ if __name__ == "__main__":
     ch = logging.StreamHandler()
     ch.setLevel(logging.DEBUG)
 
-    # create formatter
     formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(name)s:  %(message)s')
-
-    # add formatter to ch
     ch.setFormatter(formatter)
-
-    # add ch to logger
     logger.addHandler(ch)
 
     logger.info("\n---------------------\n\n")
