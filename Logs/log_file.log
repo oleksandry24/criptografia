@@ -453,3 +453,142 @@ INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "GET /static/images/D-removeb
 INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "GET /static/audioRecorder.js HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 02:37:39] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://194.210.33.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:11] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:11] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:11] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:55:25] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://194.210.33.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\whisper_audio.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\whisper_audio.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:58:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:58:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:58:38] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:58:38] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:58:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:58:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:20] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:20] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:20] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://194.210.33.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug: * Detected change in 'c:\\Users\\nunoa\\Desktop\\CRI\\Projeto\\python\\app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 766-887-176
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:59] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:59] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 19:59:59] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 20:00:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 20:00:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:Peeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2024 20:00:16] "POST /upload_audio HTTP/1.1" 200 -

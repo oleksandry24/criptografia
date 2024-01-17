@@ -22,7 +22,12 @@ def upload_audio():
         audio_blob = request.data
         with open('Audios/audio_received.ogg', 'wb') as f:
             f.write(audio_blob)
-        return 'Áudio recebido com sucesso!'
+
+        whisper = WhisperProcessor()
+        audio, l = whisper.audio_to_text("Audios/audio_received.ogg")
+        print(audio,l)
+        logger.info(audio)
+        return audio
     except KeyError:
         return 'Erro: Chave "audio" não encontrada nos dados da requisição.'
 
