@@ -4021,3 +4021,300 @@ INFO:logger:
 
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 110-510-203
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 27
+INFO:logger:(1, <memory at 0x7f477d2b37c0>, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, <memory at 0x7f477d2b3940>, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, <memory at 0x7f477d2b3b80>, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, <memory at 0x7f477d2b3c40>, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, <memory at 0x7f477d2b3d00>, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, <memory at 0x7f477d2b3dc0>, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, <memory at 0x7f477d2b3e80>, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, <memory at 0x7f477d2b3f40>, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, <memory at 0x7f477c1c2040>, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, <memory at 0x7f477c1c2100>, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, <memory at 0x7f477c1c21c0>, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(12, <memory at 0x7f477c1c2280>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f477c1c2340>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f477c1c2400>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f477c1c24c0>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f477c1c2580>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f477c1c2640>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f477c1c2700>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f477c1c27c0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f477c1c2880>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f477c1c2940>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f477c1c2a00>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7f477c1c2ac0>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7f477c1c2b80>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(26, <memory at 0x7f477c1c2c40>, datetime.datetime(2024, 1, 17, 19, 35, 45, 557731))
+INFO:logger:(27, <memory at 0x7f477c1c2d00>, datetime.datetime(2024, 1, 17, 19, 37, 0, 581363))
+INFO:logger:(24, <memory at 0x7f477c1c2dc0>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:
+Audio ID: 1
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 183
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 2
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠưቈైᛸ᎘ݨ๘ᛸ᎘ጸຸᛸ᎘๘
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 184
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 3
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ް،Ő઀݄ৌܬĈ୼ৌঐܸ୼ৌॠঐ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 185
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 4
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ธ୘੼ዒ෬ᅲᔎݤᅜ൒ᔎᇶഐൾᔎᇶ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 186
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 5
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠȐຠຈ᎘඘Ȑ෸ᛸ᎘඀ጸᛸ᎘ደ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 187
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 6
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷඞ೶୼ग़ᄥႧ౸ᐙᄥ౸௥ᐙ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 188
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 7
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜ɖᔆ෭዇ኙڽᘃ዇ഇ೰ఊᘃ዇ሽ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 189
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 8
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: འౠ୰ᒈ཈඘Ꮀࠨᛸ᎘඀ຠᛸ᎘เጠ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 190
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 9
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ൴૔ਂᇷඉഋᐙ܎ၨ႒ᐙᄥႼ಍ᐙᄥ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 191
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 10
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ೐ਔঈᄜ೐௠ጤڸာ࿜ଘጤၔ࿈࿜ተ
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 192
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:
+Audio ID: 11
+INFO:logger:Language: Detected Language: ru
+INFO:logger:Text from whisper: 1,2,3.
+
+INFO:logger:Encrypted Text: ຼ௜૶Ꭽᛒූᘃ޺ඨ้ᘃ዇ഇኙᘃ዇
+INFO:logger:Decrypted Text: 1,2,3.          
+
+INFO:logger:Try Insert into TextData..
+INFO:logger:New TextID: 193
+INFO:logger:Try Insert into AudioTextAssociation...
+INFO:logger:New insert Sucessfull
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 183, datetime.datetime(2024, 1, 16, 19, 37, 4, 679692), datetime.datetime(2024, 1, 17, 19, 37, 4, 679710))
+INFO:logger:(2, 184, datetime.datetime(2024, 1, 16, 19, 37, 7, 681021), datetime.datetime(2024, 1, 17, 19, 37, 7, 681040))
+INFO:logger:(3, 185, datetime.datetime(2024, 1, 16, 19, 37, 11, 54979), datetime.datetime(2024, 1, 17, 19, 37, 11, 54990))
+INFO:logger:(4, 186, datetime.datetime(2024, 1, 16, 19, 37, 14, 198034), datetime.datetime(2024, 1, 17, 19, 37, 14, 198049))
+INFO:logger:(5, 187, datetime.datetime(2024, 1, 16, 19, 37, 16, 965935), datetime.datetime(2024, 1, 17, 19, 37, 16, 965953))
+INFO:logger:(6, 188, datetime.datetime(2024, 1, 16, 19, 37, 19, 435681), datetime.datetime(2024, 1, 17, 19, 37, 19, 435695))
+INFO:logger:(7, 189, datetime.datetime(2024, 1, 16, 19, 37, 22, 745569), datetime.datetime(2024, 1, 17, 19, 37, 22, 745584))
+INFO:logger:(8, 190, datetime.datetime(2024, 1, 16, 19, 37, 25, 970531), datetime.datetime(2024, 1, 17, 19, 37, 25, 970552))
+INFO:logger:(9, 191, datetime.datetime(2024, 1, 16, 19, 37, 28, 515100), datetime.datetime(2024, 1, 17, 19, 37, 28, 515118))
+INFO:logger:(10, 192, datetime.datetime(2024, 1, 16, 19, 37, 31, 174634), datetime.datetime(2024, 1, 17, 19, 37, 31, 174647))
+INFO:logger:(11, 193, datetime.datetime(2024, 1, 16, 19, 37, 33, 694649), datetime.datetime(2024, 1, 17, 19, 37, 33, 694660))
+INFO:logger:(183, <memory at 0x7f477d2b3e80>)
+INFO:logger:(184, <memory at 0x7f477d2b3dc0>)
+INFO:logger:(185, <memory at 0x7f477d2b3f40>)
+INFO:logger:(186, <memory at 0x7f477c1c2dc0>)
+INFO:logger:(187, <memory at 0x7f477c1c2040>)
+INFO:logger:(188, <memory at 0x7f477c1c2100>)
+INFO:logger:(189, <memory at 0x7f477c1c21c0>)
+INFO:logger:(190, <memory at 0x7f477c1c2280>)
+INFO:logger:(191, <memory at 0x7f477c1c2340>)
+INFO:logger:(192, <memory at 0x7f477c1c2400>)
+INFO:logger:(193, <memory at 0x7f477c1c24c0>)
+INFO:logger:(12, <memory at 0x7f477c1c2580>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f477c1c2640>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f477c1c2700>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f477c1c27c0>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f477c1c2880>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f477c1c2940>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f477c1c2a00>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f477c1c2ac0>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f477c1c2b80>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f477c1c2c40>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f477c1c2d00>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7f477c1c4700>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7f477c1c47c0>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(26, <memory at 0x7f477c1c4880>, datetime.datetime(2024, 1, 17, 19, 35, 45, 557731))
+INFO:logger:(27, <memory at 0x7f477c1c4940>, datetime.datetime(2024, 1, 17, 19, 37, 0, 581363))
+INFO:logger:(24, <memory at 0x7f477c1c4a00>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:37:33] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:CONNECTION SUCCESSFULL TO DB
+INFO:logger:New Insert! Audio ID: 28
+INFO:logger:(12, <memory at 0x7f477d2b3e80>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f477d2b3dc0>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f477d2b3f40>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f47740aa040>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f47740aa100>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f47740aa1c0>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f47740aa280>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f47740aa340>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f47740aa400>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f47740aa4c0>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f47740aa580>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7f47740aa640>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7f47740aa700>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(26, <memory at 0x7f47740aa7c0>, datetime.datetime(2024, 1, 17, 19, 35, 45, 557731))
+INFO:logger:(27, <memory at 0x7f47740aa880>, datetime.datetime(2024, 1, 17, 19, 37, 0, 581363))
+INFO:logger:(24, <memory at 0x7f47740aa940>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:logger:(28, <memory at 0x7f47740aaa00>, datetime.datetime(2024, 1, 17, 19, 37, 45, 501089))
+INFO:logger:Ja foram todos convertidos em texto!!
+INFO:logger:Updating table AudioData...
+INFO:logger:Update sucessfull!
+INFO:logger:(1, 183, datetime.datetime(2024, 1, 16, 19, 37, 4, 679692), datetime.datetime(2024, 1, 17, 19, 37, 4, 679710))
+INFO:logger:(2, 184, datetime.datetime(2024, 1, 16, 19, 37, 7, 681021), datetime.datetime(2024, 1, 17, 19, 37, 7, 681040))
+INFO:logger:(3, 185, datetime.datetime(2024, 1, 16, 19, 37, 11, 54979), datetime.datetime(2024, 1, 17, 19, 37, 11, 54990))
+INFO:logger:(4, 186, datetime.datetime(2024, 1, 16, 19, 37, 14, 198034), datetime.datetime(2024, 1, 17, 19, 37, 14, 198049))
+INFO:logger:(5, 187, datetime.datetime(2024, 1, 16, 19, 37, 16, 965935), datetime.datetime(2024, 1, 17, 19, 37, 16, 965953))
+INFO:logger:(6, 188, datetime.datetime(2024, 1, 16, 19, 37, 19, 435681), datetime.datetime(2024, 1, 17, 19, 37, 19, 435695))
+INFO:logger:(7, 189, datetime.datetime(2024, 1, 16, 19, 37, 22, 745569), datetime.datetime(2024, 1, 17, 19, 37, 22, 745584))
+INFO:logger:(8, 190, datetime.datetime(2024, 1, 16, 19, 37, 25, 970531), datetime.datetime(2024, 1, 17, 19, 37, 25, 970552))
+INFO:logger:(9, 191, datetime.datetime(2024, 1, 16, 19, 37, 28, 515100), datetime.datetime(2024, 1, 17, 19, 37, 28, 515118))
+INFO:logger:(10, 192, datetime.datetime(2024, 1, 16, 19, 37, 31, 174634), datetime.datetime(2024, 1, 17, 19, 37, 31, 174647))
+INFO:logger:(11, 193, datetime.datetime(2024, 1, 16, 19, 37, 33, 694649), datetime.datetime(2024, 1, 17, 19, 37, 33, 694660))
+INFO:logger:(183, <memory at 0x7f477d2b3dc0>)
+INFO:logger:(184, <memory at 0x7f477d2b3e80>)
+INFO:logger:(185, <memory at 0x7f477d2b3f40>)
+INFO:logger:(186, <memory at 0x7f47740aaa00>)
+INFO:logger:(187, <memory at 0x7f47740aa040>)
+INFO:logger:(188, <memory at 0x7f47740aa100>)
+INFO:logger:(189, <memory at 0x7f47740aa1c0>)
+INFO:logger:(190, <memory at 0x7f47740aa280>)
+INFO:logger:(191, <memory at 0x7f47740aa340>)
+INFO:logger:(192, <memory at 0x7f47740aa400>)
+INFO:logger:(193, <memory at 0x7f47740aa4c0>)
+INFO:logger:(12, <memory at 0x7f47740aa580>, datetime.datetime(2024, 1, 17, 18, 53, 39, 746468))
+INFO:logger:(13, <memory at 0x7f47740aa640>, datetime.datetime(2024, 1, 17, 19, 12, 14, 212110))
+INFO:logger:(14, <memory at 0x7f47740aa700>, datetime.datetime(2024, 1, 17, 19, 17, 0, 25838))
+INFO:logger:(15, <memory at 0x7f47740aa7c0>, datetime.datetime(2024, 1, 17, 19, 17, 14, 778697))
+INFO:logger:(16, <memory at 0x7f47740aa880>, datetime.datetime(2024, 1, 17, 19, 17, 47, 879108))
+INFO:logger:(17, <memory at 0x7f47740aa940>, datetime.datetime(2024, 1, 17, 19, 18, 12, 700511))
+INFO:logger:(18, <memory at 0x7f47740aaac0>, datetime.datetime(2024, 1, 17, 19, 19, 21, 588041))
+INFO:logger:(19, <memory at 0x7f47740aab80>, datetime.datetime(2024, 1, 17, 19, 21, 29, 733049))
+INFO:logger:(20, <memory at 0x7f47740aac40>, datetime.datetime(2024, 1, 17, 19, 22, 47, 206845))
+INFO:logger:(21, <memory at 0x7f47740aad00>, datetime.datetime(2024, 1, 17, 19, 26, 19, 737036))
+INFO:logger:(22, <memory at 0x7f47740aadc0>, datetime.datetime(2024, 1, 17, 19, 27, 20, 736971))
+INFO:logger:(25, <memory at 0x7f47740aae80>, datetime.datetime(2024, 1, 17, 19, 32, 26, 4096))
+INFO:logger:(23, <memory at 0x7f47740aaf40>, datetime.datetime(2024, 1, 17, 19, 29, 24, 979116))
+INFO:logger:(26, <memory at 0x7f47740a2040>, datetime.datetime(2024, 1, 17, 19, 35, 45, 557731))
+INFO:logger:(27, <memory at 0x7f47740a2100>, datetime.datetime(2024, 1, 17, 19, 37, 0, 581363))
+INFO:logger:(24, <memory at 0x7f47740a21c0>, datetime.datetime(2024, 1, 17, 19, 30, 22, 923668))
+INFO:logger:(28, <memory at 0x7f47740a2280>, datetime.datetime(2024, 1, 17, 19, 37, 45, 501089))
+INFO:logger:(1, None, datetime.datetime(2024, 1, 17, 14, 17, 3, 812475))
+INFO:logger:(2, None, datetime.datetime(2024, 1, 17, 14, 18, 59, 801410))
+INFO:logger:(3, None, datetime.datetime(2024, 1, 17, 14, 20, 30, 953437))
+INFO:logger:(4, None, datetime.datetime(2024, 1, 17, 14, 22, 9, 102193))
+INFO:logger:(5, None, datetime.datetime(2024, 1, 17, 14, 24, 22, 317556))
+INFO:logger:(6, None, datetime.datetime(2024, 1, 17, 14, 26, 11, 310744))
+INFO:logger:(7, None, datetime.datetime(2024, 1, 17, 14, 27, 16, 40262))
+INFO:logger:(8, None, datetime.datetime(2024, 1, 17, 14, 27, 47, 281654))
+INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
+INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
+INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
+INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:37:45] "POST /upload_audio HTTP/1.1" 200 -
