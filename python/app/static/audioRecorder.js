@@ -69,7 +69,7 @@ const record = document.querySelector("#record");
                 method: 'POST',
                 body: blob,
                 headers: {
-                    'Content-Type': 'audio/mpeg'
+                    'Content-Type': 'audio/ogg; codecs=opus'
                   }
                 })
                 .then(response => response.text())

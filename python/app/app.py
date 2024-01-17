@@ -48,8 +48,6 @@ def admin():
 
 @app.route("/rectify_audio/<int:audio_id>/<int:text_id>")
 def rectify_audio(audio_id, text_id):
-
-
     return render_template("rectify.html", audio_id=audio_id, text_content="text")
 
 
@@ -99,7 +97,7 @@ def upload():
         logger.info("CONNECTION SUCCESSFULL TO DB")
 
         audio_blob = request.data
-        audio_content = base64.b64decode(audio_blob)
+        audio_content = audio_blob
 
         query = "INSERT INTO AudioData (AudioContent, UploadTime) VALUES (%s, %s) RETURNING AudioID"
         values = (audio_content, datetime.utcnow())
@@ -108,8 +106,8 @@ def upload():
 
         conn.commit()
 
-        logger.info(f"New Insert. Audio ID: {audio_id}")
-        
+        logger.info(f"New Insert! Audio ID: {audio_id}")
+
 
         ## PROCESS AUDIO
 
@@ -120,17 +118,17 @@ def upload():
         for row in rows:
             audio_id, audio_content = row
 
+            whisper = WhisperProcessor()
+            
             audio_path = criar_arquivo_audio(audio_content)
 
             # áudio para texto
-            whisper = WhisperProcessor()
 
             text_content, language = whisper.audio_to_text(audio_path)
             logger.info(f"\nAudio ID: {audio_id}")
             logger.info(f"Language: {language}")
             logger.info(f"Text from whisper: {text_content}\n")
 
-            # Excluir o arquivo de áudio após o processamento
             excluir_arquivo_audio(audio_path)
    
             # algoritmo de encriptação
@@ -144,15 +142,22 @@ def upload():
             logger.info(f'Decrypted Text: {decrypted_text}\n')
 
             # inserir o resultado
+            logger.info("Try Insert into TextData..")
+            encrypted_text_bytes = encrypted_text.encode('utf-8')
             text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING TextID;"
-            cur.execute(text_query, (encrypted_text))
+            cur.execute(text_query, (encrypted_text_bytes,))
             text_id = cur.fetchone()[0]
+            logger.info(f"New TextID: {text_id}")
 
-            association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s);"
-            cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(hours=48), datetime.now()))
-
+            logger.info("Try Insert into AudioTextAssociation...")
+            association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s, %s, %s);"
+            cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(minutes=1), datetime.now()))
+            logger.info(f"New insert Sucessfull")
+        
+        logger.info("Updating table AudioData...")
         update_query = "UPDATE AudioData SET AudioContent = NULL WHERE UploadTime <= %s;"
         cur.execute(update_query, (datetime.now() - timedelta(hours=48),))
+        logger.info("Update sucessfull!")
 
 
     except (Exception, psycopg2.DatabaseError, KeyError) as e:
@@ -227,7 +232,7 @@ def process_audio(connection, cursor):
 
 def criar_arquivo_audio(audio_blob):
     timestamp = str(int(time.time()))
-    audio_path = os.path.join(audios_directory, f'audio_{timestamp}.mpeg')
+    audio_path = os.path.join(audios_directory, f'audio_{timestamp}.ogg')
     with open(audio_path, 'wb') as f:
         f.write(audio_blob)
 
@@ -263,4 +268,3 @@ if __name__ == "__main__":
     logger.info("\n---------------------\n\n")
 
     app.run(host="0.0.0.0", debug=True, threaded=True)
-

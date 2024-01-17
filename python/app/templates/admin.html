@@ -17,7 +17,7 @@
             {% for association in audio_text_associations %}
                 <tr>
                     <td>{{ association.AudioID }}</td>
-                    <td><audio controls src="{{ url_for('static', filename='Audios/audio_' + association.AudioID + '.mpeg') }}"></audio></td>
+                    <td><audio controls src="{{ url_for('static', filename='Audios/audio_' + association.AudioID + '.ogg') }}"></audio></td>
                     <td>{{ association.TextContent }}</td>
                     <td>
                         <a href="{{ url_for('rectify_audio', audio_id=association.AudioID, text_id=association.TextID) }}">Rectify</a>
