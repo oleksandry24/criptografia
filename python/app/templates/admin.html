@@ -8,39 +8,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page</title>
 </head>
+
 <body>
     <h1>Admin Page</h1>
+    <h2>Lista de Audios</h2>
 
-    <h2>Audio-Text Associations</h2>
-    {% if audio_text_associations %}
-        <table>
-            {% for association in audio_text_associations %}
-                <tr>
-                    <td>{{ association.AudioID }}</td>
-                    <td><audio controls src="{{ url_for('static', filename='Audios/audio_' + association.AudioID + '.ogg') }}"></audio></td>
-                    <td>{{ association.TextContent }}</td>
-                    <td>
-                        <a href="{{ url_for('rectify_audio', audio_id=association.AudioID, text_id=association.TextID) }}">Rectify</a>
-                        <form method="POST" action="{{ url_for('verify_audio', audio_id=association.AudioID) }}">
-                            <button type="submit" name="action" value="verify">Verify</button>
-                        </form>
-                    </td>
-                </tr>
-            {% endfor %}
-        </table>
-    {% else %}
-        <p>No audio-text associations found.</p>
-    {% endif %}
+    <table id="audioTable">
+        <tr>
+            <th>ID</th>
+            <th>Áudio</th>
+            <th>Data de Upload</th>
+            <th></th>
+        </tr>
+        {% for audio in audios %}
+        <tr>
+            <td>{{ audio.ID }}</td>
+            <td>
+                {% if audio.AudioPath %}
+                <audio controls src="{{ url_for('Audios', filename=audio.AudioPath) }}"></audio>                {% else %}
+                {% else %}
+                    Audio Transformado
+                {% endif %}
+            </td>
+            <td>{{ audio.UploadTime }}</td>
+            <td>
+                {% if audio.AudioPath %}
+                    <button onclick="openPopup('{{ audio.ID }}', '{{ audio.AudioPath }}')">Mais</button>
+                {% else %}
+                    <button onclick="showDetails('{{ audio.ID }}')">Detalhes</button>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
 
-    <h2>Texts in Database</h2>
-    {% if texts %}
-        <ul>
-            {% for text in texts %}
-                <li>{{ text.TextContent }}</li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        <p>No texts found in the database.</p>
-    {% endif %}
+    <div id="popup" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <button onclick="transformToText('{{ audioID }}')">Transform to Text</button>
+        <div id="textResult"></div>
+        <button onclick="confirmText()">Confirmar</button>
+        <div id="mensagemFlutuante"></div>
+    </div>
+
+    <script src="../static/admin.js"></script>
 </body>
+
 </html>
