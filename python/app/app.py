@@ -10,7 +10,7 @@ import time
 
 
 
-
+doubleShot = DoubleShot()
 app = Flask(__name__)
 scheduler = BackgroundScheduler()
 scheduler.start()
@@ -21,43 +21,82 @@ audios_directory = os.path.abspath('Audios')
 @app.route("/")
 def home():
     return render_template("home.html")
-
-
 @app.route("/admin")
 def admin():
-    conn = None
     try:
         conn = get_db()
         cur = conn.cursor()
 
-        cur.execute("SELECT * FROM AudioData")
-        audios = cur.fetchall()
+        query = """
+            SELECT ata.AudioID, ata.UploadTime, td.TextContent
+            FROM AudioTextAssociation ata
+            JOIN AudioData ad ON ata.AudioID = ad.AudioID
+            JOIN TextData td ON ata.TextID = td.TextID;
+        """
 
-        processed = []
-        for audio in audios:
-            audio_id = audio[0]
-            audio_blob = audio[1]
-            upload_time = audio[2]
+        cur.execute(query)
+        audio_text_data = cur.fetchall()
+        processed_data = []
+        for row in audio_text_data:
+            audio_id, upload_time, text_content = row
+            if isinstance(text_content, memoryview):
+                text_content = bytes(text_content)
+            text_content = text_content.decode("utf-8")
+            # text_content = doubleShot.processAndDecrypt(text_content)
+            processed_data.append((audio_id, upload_time, text_content))
 
-            audio_path = criar_arquivo_audio(audio_blob, audio_id)
-
-            processed.append({
-                'ID': audio_id,
-                'AudioPath': audio_path,
-                'UploadTime': upload_time
-            })
+        return render_template("admin.html", audio_text_data=processed_data)
 
     except Exception as e:
-        logger.error(f"Error fetching data: {e}")
-        processed = []
+        logger.error(f"Error fetching data for admin page: {e}")
+        return "Error fetching data for admin page"
 
     finally:
         if conn is not None:
             cur.close()
             conn.close()
 
-    return render_template("admin.html", audios = processed)
+@app.route("/details", methods=["GET", "POST"])
+def details():
+    audio_id = request.args.get("audio_id")
 
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+
+        if request.method == "GET":
+            # Fetch audio data for display
+            query = """
+                SELECT AudioData.AudioID, AudioData.UploadTime, TextData.TextContent
+                FROM AudioData
+                JOIN AudioTextAssociation ON AudioData.AudioID = AudioTextAssociation.AudioID
+                JOIN TextData ON AudioTextAssociation.TextID = TextData.TextID
+                WHERE AudioData.AudioID = %s;
+            """
+            cur.execute(query, (audio_id,))
+            audio_data = cur.fetchone()
+
+            text_content = audio_data[2].decode("utf-8") if audio_data[2] else ""
+
+            return render_template("retify.html", audio_data={"AudioID": audio_data[0], "UploadTime": audio_data[1], "TextContent": text_content})
+
+        elif request.method == "POST":
+            new_text_content = request.form.get("new_text_content")
+            update_query = "UPDATE TextData SET TextContent = %s WHERE TextID = %s;"
+            cur.execute(update_query, (new_text_content.encode("utf-8"), audio_data[2]))  
+            conn.commit()
+
+            return render_template("retify.html", audio_data=audio_data)
+
+    except Exception as e:
+        logger.error(f"Error handling details for audio ID {audio_id}: {e}")
+        return "Error handling details"
+
+    finally:
+        if conn is not None:
+            cur.close()
+            conn.close()
+#------------
 @app.route('/transform_audio')
 def transform_audio():
     try:
@@ -126,6 +165,9 @@ def inserir_bd(audio_id, text):
         update_query = "UPDATE AudioData SET AudioContent = NULL WHERE AudioID = %s;"
         cur.execute(update_query, (audio_id))
         conn.commit()
+
+
+        
         logger.info("Update sucessfull!")
 
     except (Exception, psycopg2.DatabaseError, KeyError) as e:
@@ -166,7 +208,8 @@ def upload():
         audio_id = cur.fetchone()[0]
 
         conn.commit()
-
+        process_audio(audio_content, audio_id)  
+    
         logger.info(f"New Insert! Audio ID: {audio_id}")
 
     except (Exception, psycopg2.DatabaseError, KeyError) as e:
@@ -182,67 +225,48 @@ def upload():
     if error == "":
         return render_template("home.html")
     else: 
-        return render_template("home.html", error = error)
+        return render_template("home.html")
 
 
-def process_audio():
+
+def process_audio(audio_content, audio_id):
     try:
         conn = get_db()
         cur = conn.cursor()
-
-        query = "SELECT AudioID, AudioContent FROM AudioData WHERE UploadTime <= %s;"
-        cur.execute(query, (datetime.now() - timedelta(hours=24),))
-        rows = cur.fetchall()
-
-        for row in rows:
-
-            audio_id, audio_content = row
-
-            if audio_content == None:
-                logger.info("Ja foram todos convertidos em texto!!")
-                break
-            
-            whisper = WhisperProcessor()
-            
-            audio_path = criar_arquivo_audio(audio_content, audio_id)
-
-            # áudio para texto
-            text_content, language = whisper.audio_to_text(audio_path)
-            logger.info(f"\nAudio ID: {audio_id}")
-            logger.info(f"Language: {language}")
-            logger.info(f"Text from whisper: {text_content}\n")
-
-            excluir_arquivo_audio(audio_path)
-   
-            # algoritmo de encriptação
-            doubleShot = DoubleShot()
-            encrypted_text = doubleShot.processAndEncrypt(text_content)
-
-            # Ver nos logs o texto decifrado
-            logger.info(f'Encrypted Text: {encrypted_text}')
-            decrypted_text = doubleShot.processAndDecrypt(encrypted_text)
-            logger.info(f'Decrypted Text: {decrypted_text}\n')
-
-            # inserir o resultado
-            logger.info("Try Insert into TextData..")
-            encrypted_text_bytes = encrypted_text.encode('utf-8')
-            text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING TextID;"
-            cur.execute(text_query, (encrypted_text_bytes,))
-            text_id = cur.fetchone()[0]
-            conn.commit()
-            logger.info(f"New TextID: {text_id}")
-
-            logger.info("Try Insert into AudioTextAssociation...")
-            association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s, %s, %s);"
-            cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(hours=24), datetime.now()))
-            conn.commit()
-            logger.info(f"New insert Sucessfull")
         
-        logger.info("Updating table AudioData...")
-        update_query = "UPDATE AudioData SET AudioContent = NULL WHERE UploadTime <= %s;"
-        cur.execute(update_query, (datetime.now() - timedelta(hours=24),))
+        whisper = WhisperProcessor()
+        
+        audio_path = criar_arquivo_audio(audio_content, audio_id)
+
+        # áudio para texto
+        text_content, language = whisper.audio_to_text(audio_path)
+        logger.info(f"\nAudio ID: {audio_id}")
+        logger.info(f"Language: {language}")
+        logger.info(f"Text from whisper: {text_content}\n")
+
+        excluir_arquivo_audio(audio_path)
+
+        # algoritmo de encriptação
+        encrypted_text = doubleShot.processAndEncrypt(text_content)
+
+        # Ver nos logs o texto decifrado
+        logger.info(f'Encrypted Text: {encrypted_text}')
+
+        # inserir o resultado
+        logger.info("Try Insert into TextData..")
+        encrypted_text_bytes = encrypted_text.encode('utf-8')
+        text_query = "INSERT INTO TextData (TextContent) VALUES (%s) RETURNING TextID;"
+        cur.execute(text_query, (encrypted_text_bytes,))
+        text_id = cur.fetchone()[0]
         conn.commit()
-        logger.info("Update sucessfull!")
+        logger.info(f"New TextID: {text_id}")
+
+        logger.info("Try Insert into AudioTextAssociation...")
+        association_query = "INSERT INTO AudioTextAssociation (AudioID, TextID, UploadTime, ConversionTime) VALUES (%s, %s, %s, %s);"
+        cur.execute(association_query, (audio_id, text_id, datetime.now() - timedelta(hours=24), datetime.now()))
+        conn.commit()
+        logger.info(f"New insert Sucessfull")
+    
 
     except Exception as e:
         print(f"Error processing audio: {e}")

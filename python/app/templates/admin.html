@@ -1,56 +1,27 @@
-<!-- admin.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page</title>
 </head>
-
 <body>
     <h1>Admin Page</h1>
-    <h2>Lista de Audios</h2>
-
-    <table id="audioTable">
+    <table border="1">  
         <tr>
-            <th>ID</th>
-            <th>Áudio</th>
-            <th>Data de Upload</th>
-            <th></th>
+            <th>Audio ID</th>
+            <th>Upload Time</th>
+            <th>Text Content</th>
+            <th>Action</th>
         </tr>
-        {% for audio in audios %}
-        <tr>
-            <td>{{ audio.ID }}</td>
-            <td>
-                {% if audio.AudioPath %}
-                <audio controls src="{{ url_for('Audios', filename=audio.AudioPath) }}"></audio>                {% else %}
-                {% else %}
-                    Audio Transformado
-                {% endif %}
-            </td>
-            <td>{{ audio.UploadTime }}</td>
-            <td>
-                {% if audio.AudioPath %}
-                    <button onclick="openPopup('{{ audio.ID }}', '{{ audio.AudioPath }}')">Mais</button>
-                {% else %}
-                    <button onclick="showDetails('{{ audio.ID }}')">Detalhes</button>
-                {% endif %}
-            </td>
-        </tr>
+        {% for row in audio_text_data %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td><a href="/details?audio_id={{ row[0] }}">View Details</a></td>
+            </tr>
         {% endfor %}
     </table>
-
-    <div id="popup" class="popup">
-        <span class="close" onclick="closePopup()">&times;</span>
-        <button onclick="transformToText('{{ audioID }}')">Transform to Text</button>
-        <div id="textResult"></div>
-        <button onclick="confirmText()">Confirmar</button>
-        <div id="mensagemFlutuante"></div>
-    </div>
-
-    <script src="../static/admin.js"></script>
 </body>
-
 </html>

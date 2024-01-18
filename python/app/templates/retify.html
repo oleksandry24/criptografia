@@ -1,18 +1,23 @@
-<!-- rectify.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rectify Page</title>
+    <title>Details Page</title>
 </head>
 <body>
-    <h1>Rectify Page</h1>
+    <h1>Details for Audio ID {{ audio_data.AudioID }}</h1>
+    <p>Upload Time: {{ audio_data.UploadTime }}</p>
 
-    <p>Audio ID: {{ audio_id }}</p>
-    <p>Text: {{ text_content }}</p>
+    <form method="post">
+        <label for="new_text_content">Text Content:</label>
+        <textarea id="new_text_content" name="new_text_content" rows="4" cols="50">{{ audio_data.TextContent }}</textarea>
+        <br>
+        <input type="submit" value="Update Text">
+    </form>
+
+    <a href="/admin">Back to Admin Page</a>
+
 
 </body>
 </html>
