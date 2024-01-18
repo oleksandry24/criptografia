@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import logging, psycopg2
 from datetime import datetime, timedelta
-from apscheduler.schedulers.background import BackgroundScheduler
 from crypto import DoubleShot
 from whisper_audio import WhisperProcessor
 import base64 
@@ -9,11 +8,31 @@ import os
 import time
 
 
+def json():
+    doubleShot = DoubleShot()
+    try: 
+        conn = get_db()
+        cur = conn.cursor()
 
-doubleShot = DoubleShot()
+        query = "SELECT * FROM CryptoData"
+        cur.execute(query)
+        dic = cur.fetchone()[0]
+
+    except (Exception, psycopg2.DatabaseError, KeyError) as e:
+        logger.error(f"ERROR json: {e}")
+        conn.rollback()
+
+    finally:
+        if conn is not None:
+            cur.close()
+            conn.close()
+    
+    doubleShot.storedic(dic)
+    return doubleShot
+
+doubleShot = json()
+
 app = Flask(__name__)
-scheduler = BackgroundScheduler()
-scheduler.start()
 app.static_folder = './static'
 
 audios_directory = os.path.abspath('Audios')
@@ -42,8 +61,13 @@ def admin():
             if isinstance(text_content, memoryview):
                 text_content = bytes(text_content)
             text_content = text_content.decode("utf-8")
-            # text_content = doubleShot.processAndDecrypt(text_content)
+            logger.info(text_content)
+            text_content = doubleShot.processAndDecrypt(text_content)
+            logger.info(text_content)
+
             processed_data.append((audio_id, upload_time, text_content))
+
+        logger.info(processed_data)
 
         return render_template("admin.html", audio_text_data=processed_data)
 
@@ -179,17 +203,6 @@ def inserir_bd(audio_id, text):
             cur.close()
             conn.close()
 
-# @app.route('/detalhes_audio')
-# def detalhes_audio():
-#     audio_id = request.args.get('audioID')
-
-#     try:
-#         conn = get_db()
-#         cur = conn.cursor()
-
-#     except 
-#     return jsonify()
-
 @app.route("/upload_audio", methods = ["POST"])
 def upload():
     error = ""
@@ -275,10 +288,6 @@ def process_audio(audio_content, audio_id):
         if conn is not None:
             cur.close()
             conn.close()
-
-# Agendando a tarefa para ser executada a cada 24 horas
-# scheduler.add_job(process_audio, trigger='interval', hours=24)
-
 
 def criar_arquivo_audio(audio_blob, audio_id):
     audio_path = os.path.join(audios_directory, f'audio_{audio_id}.ogg')

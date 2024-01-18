@@ -5663,3 +5663,76 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 556-168-523
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:25:28] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:25:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-350-963
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:27:58] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-350-963
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:08] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-350-963
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:35] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-350-963
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:56] "GET /admin HTTP/1.1" 200 -
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:57] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-350-963
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:14] "GET /admin HTTP/1.1" 200 -
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:14] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-350-963
