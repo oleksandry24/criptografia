@@ -4318,3 +4318,29 @@ INFO:logger:(9, None, datetime.datetime(2024, 1, 17, 14, 28, 42, 463736))
 INFO:logger:(10, None, datetime.datetime(2024, 1, 17, 14, 29, 13, 863166))
 INFO:logger:(11, None, datetime.datetime(2024, 1, 17, 14, 30, 59, 288653))
 INFO:werkzeug:172.19.0.1 - - [17/Jan/2024 19:37:45] "POST /upload_audio HTTP/1.1" 200 -
+INFO:logger:
+---------------------
+
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:
+---------------------
+
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 679-568-854
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/audioRecorder.js HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
+ERROR:logger:Error fetching data: a bytes-like object is required, not 'NoneType'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
