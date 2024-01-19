@@ -4333,19 +4333,6 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-<<<<<<< HEAD
-INFO:werkzeug: * Debugger PIN: 679-568-854
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/audioRecorder.js HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
-ERROR:logger:Error fetching data: a bytes-like object is required, not 'NoneType'
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-=======
 INFO:werkzeug: * Debugger PIN: 771-120-574
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 17:45:06] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 17:45:06] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
@@ -5504,7 +5491,6 @@ INFO:werkzeug: * Debugger PIN: 332-320-709
 ERROR:logger:Error fetching data for admin page: 'memoryview' object has no attribute 'decode'
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:15:31] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:15:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
->>>>>>> 21ea86e5762405bf1fa9d8a413f227433cbcfba5
 INFO:logger:
 ---------------------
 

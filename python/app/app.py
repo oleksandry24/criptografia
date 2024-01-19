@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify,send_file
 import logging, psycopg2
 from datetime import datetime, timedelta
 from crypto import DoubleShot
@@ -89,7 +89,6 @@ def details():
         cur = conn.cursor()
 
         if request.method == "GET":
-            # Fetch audio data for display
             query = """
                 SELECT AudioData.AudioID, AudioData.UploadTime, TextData.TextContent
                 FROM AudioData
@@ -99,18 +98,24 @@ def details():
             """
             cur.execute(query, (audio_id,))
             audio_data = cur.fetchone()
+            logger.info(audio_data)
 
-            text_content = audio_data[2].decode("utf-8") if audio_data[2] else ""
+            text_content = audio_data[2].tobytes().decode("utf-8") if audio_data[2] else ""
 
             return render_template("retify.html", audio_data={"AudioID": audio_data[0], "UploadTime": audio_data[1], "TextContent": text_content})
 
         elif request.method == "POST":
             new_text_content = request.form.get("new_text_content")
+            new_text_content =new_text_content.encode('utf-8')
+            text_id_query = "SELECT TextID FROM AudioTextAssociation WHERE AudioID = %s;"
+            cur.execute(text_id_query, (audio_id,))
+            text_id = cur.fetchone()[0]
+
             update_query = "UPDATE TextData SET TextContent = %s WHERE TextID = %s;"
-            cur.execute(update_query, (new_text_content.encode("utf-8"), audio_data[2]))  
+            cur.execute(update_query, (new_text_content, text_id))
             conn.commit()
 
-            return render_template("retify.html", audio_data=audio_data)
+            return render_template("admin.html")
 
     except Exception as e:
         logger.error(f"Error handling details for audio ID {audio_id}: {e}")
@@ -120,6 +125,7 @@ def details():
         if conn is not None:
             cur.close()
             conn.close()
+
 #------------
 @app.route('/transform_audio')
 def transform_audio():
@@ -240,7 +246,26 @@ def upload():
     else: 
         return render_template("home.html")
 
+@app.route('/get_audio/<int:audio_id>')
+def get_audio(audio_id):
+    try:
+        conn = get_db()
+        cur = conn.cursor()
 
+        query = "SELECT AudioContent FROM AudioData WHERE AudioID = %s;"
+        cur.execute(query, (audio_id,))
+        audio_content = cur.fetchone()[0]
+
+        return send_file(io.BytesIO(audio_content), mimetype='audio/ogg', as_attachment=True, download_name=f'audio_{audio_id}.ogg')
+
+    except Exception as e:
+        logger.error(f"Error fetching audio data: {e}")
+        return "Error fetching audio data"
+
+    finally:
+        if conn is not None:
+            cur.close()
+            conn.close()
 
 def process_audio(audio_content, audio_id):
     try:
