@@ -83,10 +83,7 @@ class DoubleShot:
     def processAndEncrypt(self, plain_text):
         # Aplicar a transformação enigmaCry
         transformed_text = self.enigmaCry(plain_text)
-        
-        # Multiplicar cada caractere pelo valor multiplicador
-        #multiplied_text = self.multiplyChar(transformed_text)
-        
+
         # Aplicar a criptografia AES
         cipher_text = aesEncrypt(transformed_text, self.cipher_key)
 

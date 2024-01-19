@@ -24,7 +24,5 @@ CREATE TABLE AudioTextAssociation (
 );
 
 CREATE TABLE CryptoData (
-    TextID INT PRIMARY KEY,
     EncryptionAlgorithm JSON,
-    FOREIGN KEY (TextID) REFERENCES TextData(TextID) ON DELETE CASCADE
 );

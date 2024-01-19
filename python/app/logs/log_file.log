@@ -4333,19 +4333,6 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-<<<<<<< HEAD
-INFO:werkzeug: * Debugger PIN: 679-568-854
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/audioRecorder.js HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:03] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
-ERROR:logger:Error fetching data: a bytes-like object is required, not 'NoneType'
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:14:11] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-=======
 INFO:werkzeug: * Debugger PIN: 771-120-574
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 17:45:06] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 17:45:06] "GET /static/images/D-removebg-preview.png HTTP/1.1" 200 -
@@ -5504,7 +5491,6 @@ INFO:werkzeug: * Debugger PIN: 332-320-709
 ERROR:logger:Error fetching data for admin page: 'memoryview' object has no attribute 'decode'
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:15:31] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:15:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
->>>>>>> 21ea86e5762405bf1fa9d8a413f227433cbcfba5
 INFO:logger:
 ---------------------
 
@@ -5678,7 +5664,8 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
+INFO:werkzeug: * Debugger PIN: 135-350-963
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:27:58] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in '/app/app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:logger:
@@ -5686,7 +5673,9 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
+INFO:werkzeug: * Debugger PIN: 135-350-963
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:08] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in '/app/app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:logger:
@@ -5694,27 +5683,9 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:26:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:26:56] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:26:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:26:57] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
-INFO:logger:CONNECTION SUCCESSFULL TO DB
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:27:10] "GET /admin HTTP/1.1" 200 -
-ERROR:logger:Error handling details for audio ID 7: 'memoryview' object has no attribute 'decode'
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:27:12] "GET /details?audio_id=7 HTTP/1.1" 200 -
-INFO:logger:
-Audio ID: 11
-INFO:logger:Language: Detected Language: pt
-INFO:logger:Text from whisper: Vá, estiguê!
-
-INFO:logger:Encrypted Text: Հࡺෲ୮࢈݆Ϊழഠר౜ϔࡐࢤ൦୮
-INFO:logger:Try Insert into TextData..
-INFO:logger:New TextID: 4
-INFO:logger:Try Insert into AudioTextAssociation...
-INFO:logger:New insert Sucessfull
-INFO:logger:New Insert! Audio ID: 11
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:27:39] "POST /upload_audio HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 135-350-963
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:35] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in '/app/app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:logger:
@@ -5722,7 +5693,13 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
+INFO:werkzeug: * Debugger PIN: 135-350-963
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:56] "GET /admin HTTP/1.1" 200 -
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:28:57] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in '/app/app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:logger:
@@ -5730,10 +5707,13 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:44] "GET /admin HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:45] "GET /details?audio_id=11 HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 135-350-963
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:14] "GET /admin HTTP/1.1" 200 -
+INFO:logger:ธ୘Ǻᗪၪᆞᆈৌᇶᄰౠᔎᇶᅲ౶ᔎ
+ERROR:logger:Error fetching data for admin page: '#'
+INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:29:14] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in '/app/app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:logger:
@@ -5741,223 +5721,4 @@ INFO:logger:
 
 
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f16724347c0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:30:44] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:30:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7ff69e9ed880>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:01] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:05] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:07] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7ff69e9edac0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:12] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:logger:(10, datetime.datetime(2024, 1, 18, 19, 17, 47, 25224), <memory at 0x7ff69e9edac0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:13] "GET /details?audio_id=10 HTTP/1.1" 200 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7ff69e9edac0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:16] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:37] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:42] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:42] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:42] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:47] "GET /admin HTTP/1.1" 200 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7ff69e9edd00>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:32:49] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:51] "GET /admin HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f7a2ddadac0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:52] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:53] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:55] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:58] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:58] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:35:58] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:02] "GET /admin HTTP/1.1" 200 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f7a2ddadd00>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:03] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:07] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:14] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:14] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:14] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:17] "GET /admin HTTP/1.1" 200 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f7a2ddadac0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:36:18] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f63d1b377c0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:13] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:15] "GET /admin HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f63d1b37940>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:15] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:17] "POST /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:38:21] "GET /admin HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f9082c75940>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:42:18] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f9082c75940>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:09] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f9082c75940>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:09] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f9082c75ac0>)
-ERROR:logger:Error handling details for audio ID 11: can only concatenate str (not "int") to str
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:17] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f9082c75b80>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:45] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:45] "[33mGET /static/Audios/audio_11.ogg HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:43:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f9082c75dc0>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:46:51] "GET /details?audio_id=11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:46:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7ff5e736e880>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:17] "GET /details?audio_id=11 HTTP/1.1" 200 -
-ERROR:logger:Error fetching audio data: name 'send_file' is not defined
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:17] "GET /get_audio/11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in '/app/app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:logger:
----------------------
-
-
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 130-853-374
-INFO:logger:(11, datetime.datetime(2024, 1, 18, 19, 27, 3, 812333), <memory at 0x7f4f1d96e880>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:41] "GET /details?audio_id=11 HTTP/1.1" 200 -
-ERROR:logger:Error fetching audio data: name 'io' is not defined
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:41] "GET /get_audio/11 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:47] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:47] "[36mGET /static/audioRecorder.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:47:47] "[36mGET /static/images/D-removebg-preview.png HTTP/1.1[0m" 304 -
-INFO:logger:CONNECTION SUCCESSFULL TO DB
-INFO:logger:
-Audio ID: 12
-INFO:logger:Language: Detected Language: en
-INFO:logger:Text from whisper: This is the right thing to do.
-
-INFO:logger:Encrypted Text: ᲀፌᗸЂᤖఆ⑞ἆ՘ᝎ▴⃎ᜨᛜ⌮෴ᲀᔔ▴⃎ഐܠ⑞ᨠᚐ‐▴≊ᕠᥢ↌⑞
-INFO:logger:Try Insert into TextData..
-INFO:logger:New TextID: 5
-INFO:logger:Try Insert into AudioTextAssociation...
-INFO:logger:New insert Sucessfull
-INFO:logger:New Insert! Audio ID: 12
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:10] "POST /upload_audio HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:19] "GET /admin HTTP/1.1" 200 -
-INFO:logger:(12, datetime.datetime(2024, 1, 18, 19, 48, 7, 660268), <memory at 0x7f4f1d96ea00>)
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:23] "GET /details?audio_id=12 HTTP/1.1" 200 -
-ERROR:logger:Error fetching audio data: name 'io' is not defined
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:23] "GET /get_audio/12 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:41] "POST /details?audio_id=12 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:43] "POST /details?audio_id=12 HTTP/1.1" 200 -
-INFO:werkzeug:172.19.0.1 - - [18/Jan/2024 19:48:49] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 135-350-963
