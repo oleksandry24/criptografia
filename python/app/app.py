@@ -148,20 +148,7 @@ def transform_audio():
 
     return jsonify({'text': text_content})
 
-@app.route('/confirm_text')
-def confirm():
-    try:
-        data = request.json
-        
-        audio_id = data.get('audioID')
-        text_content = data.get('text')
 
-        inserir_bd(audio_id, text_content)
-
-        return jsonify({'success': True})           
-    
-    except Exception as e:
-        return jsonify({'success': False, 'error': str(e)})
 
 def inserir_bd(audio_id, text):
     try: 
