@@ -24,5 +24,5 @@ CREATE TABLE AudioTextAssociation (
 );
 
 CREATE TABLE CryptoData (
-    EncryptionAlgorithm JSON,
+    EncryptionAlgorithm JSON
 );

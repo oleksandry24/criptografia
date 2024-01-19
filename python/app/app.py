@@ -6,7 +6,12 @@ from whisper_audio import WhisperProcessor
 import base64 
 import os
 import time
+import io
 
+app = Flask(__name__)
+app.static_folder = './static'
+
+audios_directory = os.path.abspath('Audios')
 
 def json():
     doubleShot = DoubleShot()
@@ -30,19 +35,13 @@ def json():
     doubleShot.storedic(dic)
     return doubleShot
 
-doubleShot = json()
-
-app = Flask(__name__)
-app.static_folder = './static'
-
-audios_directory = os.path.abspath('Audios')
-
 @app.route("/")
 def home():
     return render_template("home.html")
 @app.route("/admin")
 def admin():
     try:
+        doubleShot = json()
         conn = get_db()
         cur = conn.cursor()
 
@@ -256,6 +255,8 @@ def get_audio(audio_id):
 
 def process_audio(audio_content, audio_id):
     try:
+        doubleShot = json()
+
         conn = get_db()
         cur = conn.cursor()
         

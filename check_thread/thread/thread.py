@@ -1,6 +1,6 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 import psycopg2, logging
-from python.app.crypto import DoubleShot
+from crypto import DoubleShot
 from datetime import datetime, timedelta
 
 def guardar_json(ds):
