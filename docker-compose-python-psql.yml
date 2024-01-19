@@ -14,6 +14,7 @@ services:
     container_name: check
     volumes:
       - "./check_thread/thread:/thread"
+      - "./python/app:/app"
     depends_on:
       - db
   web:
@@ -28,4 +29,3 @@ services:
     depends_on:
       - db
       - check
-  
