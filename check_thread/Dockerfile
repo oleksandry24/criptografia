@@ -19,6 +19,4 @@ WORKDIR /thread
 
 RUN mkdir -p logs
 
-EXPOSE 7000
-
 CMD ["python", "thread.py"]

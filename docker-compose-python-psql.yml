@@ -9,13 +9,11 @@ services:
       - "5432"
     ports:
       - "5432:5432"
-  check: 
+  check:
     build: ./check_thread
-    container: check
+    container_name: check
     volumes:
       - "./check_thread/thread:/thread"
-    expose: 
-      - "7000"
     depends_on:
       - db
   web:
