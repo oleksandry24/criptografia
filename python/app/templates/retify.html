@@ -9,6 +9,13 @@
     <h1>Details for Audio ID {{ audio_data.AudioID }}</h1>
     <p>Upload Time: {{ audio_data.UploadTime }}</p>
 
+    <!-- Add the audio player -->
+    <audio controls>
+        <!-- Specify the audio source dynamically based on the audio ID -->
+        <source src="{{ url_for('get_audio', audio_id=audio_data.AudioID) }}" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
     <form method="post">
         <label for="new_text_content">Text Content:</label>
         <textarea id="new_text_content" name="new_text_content" rows="4" cols="50">{{ audio_data.TextContent }}</textarea>
@@ -17,7 +24,5 @@
     </form>
 
     <a href="/admin">Back to Admin Page</a>
-
-
 </body>
 </html>
